@@ -1,0 +1,53 @@
+@import "compass";
+@import "vendor/greedy/index";
+@import "vendor/font-awesome/font-awesome";
+
+.container {
+  @extend %grid;
+}
+
+.row {
+  @extend %row;
+}
+
+.show-grid {
+
+  [class*="span"] {
+    background: rgba($gray, .5);
+    text-align: center;
+
+    &:hover {
+      background: rgba($grayLighter, .5);
+    }
+  }
+}
+
+@debug ("--------------------------- INSIDE");
+@include media(small) {}
+@include media(hand) {}
+@include media(lap) {}
+@include media(desk) {}
+@debug ("--------------------------- UP TO");
+@include media(to small) {}
+@include media(to hand) {}
+@include media(to lap) {}
+@include media(to desk) {}
+@debug ("--------------------------- UP FROM");
+@include media(from small) {}
+@include media(from hand) {}
+@include media(from lap) {}
+@include media(from desk) {}
+@debug ("--------------------------- BETWEEN");
+@include media(small hand) {}
+@include media(small lap) {}
+@include media(small desk) {}
+@include media(hand lap) {}
+@include media(hand desk) {}
+@include media(lap desk) {}
+@debug ("--------------------------- PIXELS");
+@include media(100px) {}
+@include media(100px 200px) {}
+@include media(to 100px) {}
+@include media(from 100px) {}
+
+@debug "DONE";

@@ -1,0 +1,22 @@
+@if $ie7-support == true {
+  %clearfix {
+    display: inline-block;
+    html[xmlns] & {display: block}
+    * html & {height: 1%}
+
+    &:after {
+      content: ".";
+      display: block;
+      clear: both;
+      visibility: hidden;
+      line-height: 0;
+      height: 0;
+    }
+  }
+} @else {
+  %clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}

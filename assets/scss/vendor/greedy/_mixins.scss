@@ -1,0 +1,67 @@
+@mixin rem($property, $values) {
+  $rem: $fontSizeBase/1rem;
+  #{$property}: $values;
+  @if type-of($values) == "number" {
+    #{$property}: $values/$rem;
+  } @else {
+    $rem-values: unquote("");
+    @each $value in $values {
+      @if $value == 0 or $value == auto or $value == !important or unit($value) == em or unit($value) == "%" {
+        $rem-values: append($rem-values, $value);
+      } @else {
+        $rem-values: append($rem-values, $value/$rem);
+      }
+    }
+  #{$property}: $rem-values;
+  }
+}
+
+@mixin white-space($wrap-space) {
+  @if $wrap-space == 'pre-wrap' {
+    white-space: #{-moz-}$wrap-space;
+    white-space: $wrap-space;
+  } @else {
+    white-space: $wrap-space;
+  }
+}
+
+@mixin fontSize($fs, $lh, $ratio) {
+  $ems: ceil($fs/($fontSizeBase*$lh));
+  $height: ($ems*$fontSizeBase*$lh)/$fs;
+  $height: $height*$ratio;
+
+// Change global variables
+  $lineHeight: ($height*$fs + 0.05px)/$fs; //**George
+// $lineHeight: 1.5;
+
+  $fontSize: $fs;
+
+  line-height: $lineHeight;
+  @include rem('font-size', $fontSize);
+}
+
+@mixin fs($fs: $fontSizeBase, $lh: $lineHeightBase, $ratio: 1) {
+  @include fontSize($fs, $lh, $ratio);
+}
+
+@mixin rem($property, $values) {
+  $rem: $fontSizeBase/1rem;
+  #{$property}: $values;
+  @if type-of($values) == "number" {
+    #{$property}: $values/$rem;
+  } @else {
+    $rem-values: unquote("");
+    @each $value in $values {
+      @if $value == 0 or
+				$value == auto or
+				$value == !important or
+unit($value) == em or
+unit($value) == "%" {
+  $rem-values: append($rem-values, $value);
+} @else {
+  $rem-values: append($rem-values, $value/$rem);
+}
+  }
+#{$property}: $rem-values;
+  }
+  }

@@ -1,0 +1,255 @@
+* {@include box-sizing(border-box !important)}
+
+// IE10 snap mode
+@-ms-viewport {width: device-width}
+@viewport {width: device-width}
+
+img {max-width: 100%}
+
+$gridWidth: 1000px;
+$gridGutter: 10px;
+$responsive: true;
+
+%grid {
+  margin-left: auto;
+  margin-right: auto;
+  width: $gridWidth;
+
+  @if $responsive == true {
+    @media only screen {
+      max-width: 100%;
+    }
+  }
+}
+
+%row {
+  @extend %clearfix;
+  margin-left: -1 * $gridGutter;
+}
+
+%column {
+  border: 0 solid transparent;
+  border-left-width: $gridGutter;
+  //padding-left: $gridGutter;
+  @include background-clip(padding-box !important);
+  @include background-origin(padding-box !important);
+}
+
+%span {
+  @extend %column;
+  float: left;
+  min-height: 1px;
+}
+
+// watch and learn
+[class*="span"] {
+  @extend %span;
+}
+
+$breakpoints: 0 small 400px hand 768px lap 1280px desk;
+
+$bpNames: ();
+$bpSizes: ();
+@mixin processBreakpoints() {
+  @each $bp in $breakpoints {
+    @if index($breakpoints, $bp) % 2 == 0 {
+      $bpNames: append($bpNames, $bp);
+    } @else {
+      $bpSizes: append($bpSizes, $bp);
+    }
+  }
+  $bpSizes: append($bpSizes, 0);
+}
+
+@include processBreakpoints();
+
+@function queryString($query) {
+  $string: "";
+  @if length($query) == 1 {
+    @if nth($query, 1) != 0 {
+      $string: " and (min-width: " + $query + ")";
+    }
+  }
+  @if length($query) == 2 {
+    @if nth($query, 2) == 0 {
+      @if nth($query, 1) != 0 {
+        $string: " and (min-width: " + nth($query,1) + ")";
+      }
+    } @else {
+      @if nth($query, 1) == 0 {
+        $string: " and (max-width: " + nth($query,2) + ")";
+      } @else {
+        $string: " and (min-width: " + nth($query,1) + ") and (max-width: " + nth($query,2) + ")";
+      }
+    }
+  }
+  @debug unquote("only screen" + $string);
+  @return unquote("only screen" + $string);
+}
+
+@mixin media($query) {
+  @if length($query) == 1 {
+    $index: index($bpNames, $query);
+    @if $index {
+      $bp1: nth($bpSizes, $index);
+      $bp2: nth($bpSizes, $index + 1);
+      $bp2: if($bp2 > 0, $bp2 - 1px, $bp2);
+      @media #{queryString($bp1 $bp2)} {
+        @content;
+      }
+    } @else {
+      @media #{queryString($query 0)} {
+        @content;
+      }
+    }
+  } @else {
+    $bp1: nth($query,1);
+    $bp2: nth($query,2);
+    $index1: index($bpNames, $bp1);
+    $index2: index($bpNames, $bp2);
+    @if $index1 != false {
+      $bp1: nth($bpSizes, $index1);
+    }
+    @if $index2 != false {
+      $bp2: nth($bpSizes, $index2 + 1);
+    }
+    @if ($bp1 == from) {
+      $bp1: $bp2;
+      $bp2: 0;
+    }
+    @if ($bp1 == to) {
+      $bp1: 0;
+      @if $bp2 > 0 {
+        $bp2: $bp2 - 1px;
+      }
+    }
+    @media #{queryString($bp1 $bp2)} {
+      @content;
+    }
+  }
+}
+
+$defaultBreakpoint: lap;
+
+@function getBreakpointSize($bp) {
+  $index: index($bpNames, $bp);
+  @if $index == false {
+    @return $bp;
+  } @else {
+    @return nth($bpSizes, $index);
+  }
+}
+
+$classN: (); // name
+$classR: (); // ratio
+$classP: (); // placeholder
+$classT: (); // type
+@mixin newClass($n, $r, $t: span, $p: false) {
+  $classN: append($classN, $n);
+  $classR: append($classR, $r);
+  $classT: append($classT, $t);
+  $classP: append($classP, $p);
+}
+
+%position-relative {
+  position: relative;
+}
+
+@mixin generateClasses() {
+  @for $i from 1 through length($classN) {
+    $n: nth($classN, $i);
+    $r: nth($classR, $i);
+    $t: nth($classT, $i);
+    $p: nth($classP, $i);
+
+    // span
+    @if $t == span {
+      %#{$n} {
+        @extend %span;
+        width: percentage($r);
+      }
+    }
+
+    @if $t == push {
+      %#{$n} {
+        left: percentage($r);
+      }
+    }
+
+    @if $t == pull {
+      %#{$n} {
+        left: -1 * percentage($r);
+      }
+    }
+
+    @if $t == offset {
+      %#{$n} {
+        margin-left: percentage($r);
+      }
+    }
+
+    @if $t == push or $t == pull {
+      %#{$n} {
+        @extend %position-relative;
+      }
+    }
+
+    @if $p != true {
+      .#{$n} {
+        @extend %#{$n};
+      }
+    }
+  }
+
+  @each $bp in $bpNames {
+    @include media($bp) {
+      @for $i from 1 through length($classN) {
+        $n: nth($classN, $i);
+        $r: nth($classR, $i);
+        $t: nth($classT, $i);
+        $p: nth($classP, $i);
+
+        @if $t == span {
+          %#{$bp}-#{$n} {
+            width: percentage($r);
+          }
+        }
+
+        @if $t == offset {
+          %#{$bp}-#{$n} {
+            margin-left: percentage($r);
+          }
+        }
+
+        @if $t == push {
+          %#{$bp}-#{$n} {
+            position: relative; top: 0;
+            left: percentage($r);
+          }
+        }
+
+        @if $t == pull {
+          %#{$bp}-#{$n} {
+            position: relative; top: 0;
+            left: -1 * percentage($r);
+          }
+        }
+
+        @if $p != true {
+          .#{$bp}-#{$n} {
+            @extend %#{$bp}-#{$n};
+          }
+        }
+      }
+    }
+  }
+}
+
+$columns: 12;
+@for $i from 1 through $columns {
+  @include newClass(span#{$i}, $i / $columns);
+  @include newClass(offset#{$i}, $i / $columns, offset);
+  @include newClass(push#{$i}, $i / $columns, push);
+  @include newClass(pull#{$i}, $i / $columns, pull);
+}
+@include generateClasses();

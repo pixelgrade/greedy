@@ -1,0 +1,83 @@
+
+
+$unit: $fontSizeBase*$lineHeightBase;
+
+html {
+  font-family: $fontFamilyBase;
+  font-size: percentage($fontSizeBase/16px);
+  line-height: $lineHeightBase;
+  @if $textColor != null {
+    color: $textColor;
+  }
+}
+
+ul, ol, dl, p, table {
+  @include rem(margin, 0 0 $unit);
+}
+
+%list %list {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {@extend %list;}
+ol {@extend %list;}
+dl {}
+dt {font-weight: bold;}
+dd {
+  @include rem(margin-bottom, $unit);
+  margin-left: 0;
+}
+
+// Headings
+%heading {
+  margin: 0;
+  text-rendering: optimizeLegibility;
+  font-family: $heading-fontFamily;
+  font-weight: $heading-fontWeight;
+
+  @if $heading-color != null {
+    color: $heading-color;
+  }
+}
+
+.alpha		{ @include fs($alpha-size); }
+.beta		{ @include fs($beta-size); }
+.gama		{ @include fs($gama-size); }
+.delta		{ @include fs($delta-size); }
+.epsylon	{ @include fs($epsylon-size); }
+.zeta		{ @include fs($zeta-size); }
+
+hgroup {
+  @extend %heading;
+
+  .alpha, .beta, .gama, .delta, .epsylon {
+    margin: 0;
+  }
+}
+
+h1 {@extend %heading; @extend .alpha;}
+h2 {@extend %heading; @extend .beta;}
+h3 {@extend %heading; @extend .gama;}
+h4 {@extend %heading; @extend .delta;}
+h5 {@extend %heading; @extend .epsylon;}
+h6 {@extend %heading; @extend .zeta;}
+
+%breakword {word-wrap: breakword;}
+%normal-wrap {word-wrap: normal;}
+%inherit-wrap {word-wrap: auto;}
+
+// Codeblocks
+pre code {
+  @extend %normal-wrap;
+  @include white-space(pre-wrap);
+}
+
+pre {
+  @include white-space(pre);
+}
+
+code {
+  @include white-space(pre);
+  font-family: monospace;
+}
