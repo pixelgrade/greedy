@@ -1,9 +1,9 @@
 # A new tool has emerged
 ## Configurable
-* __$gridWidth:__ 960px
-* __$gridColumns:__ 12
-* __$defaultClasses:__ true
-* __$remux:__ true
+* `$gridWidth: 960px;`
+* `$gridColumns: 12;`
+* `$defaultClasses: true;`
+* `$remux: true;`
 
 ## Smart grid system
 #### Set up your breakpoints
