@@ -21,6 +21,6 @@ relative_assets = true
 # and then run:
 # sass-convert -R --from scss --to sass sass scss && rm -rf sass && mv scss sass
 
-sass_options = { :debug_info => false, :sourcemap => false }
-output_style = :compressed
+sass_options = { :debug_info => true, :sourcemap => true }
+output_style = :expanded
 line_comments = false

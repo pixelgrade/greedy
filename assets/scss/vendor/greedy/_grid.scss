@@ -111,7 +111,7 @@ $bpSizes: ();
       $bp1: nth($bpSizes, $index1);
     }
     @if $index2 != false {
-      $bp2: nth($bpSizes, $index2 + 1);
+      $bp2: if($bp1 == from, nth($bpSizes, $index2), nth($bpSizes, $index2 + 1));
     }
     @if ($bp1 == from) {
       $bp1: $bp2;
@@ -202,7 +202,7 @@ $classT: (); // type
   }
 
   @each $bp in $bpNames {
-    @include media($bp) {
+    @include media(from $bp) {
       @for $i from 1 through length($classN) {
         $n: nth($classN, $i);
         $r: nth($classR, $i);

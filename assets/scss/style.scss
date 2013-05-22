@@ -2,8 +2,31 @@
 @import "vendor/greedy/index";
 @import "vendor/font-awesome/font-awesome";
 
+
+@mixin verticalGrid($ratio: $lineHeightBase) {
+  @include background-image(linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0) 96%, rgba(0,0,0,.1) 98%, rgba(0,0,0,.1) 100%, rgba(0,0,0,0)));
+  @include background-size($ratio * 1rem $ratio * 1rem);
+}
+
+body {
+  @include verticalGrid();
+  background: red;
+
+  @include media(from hand) {
+    background: orange;
+  }
+  @include media(from lap) {
+    background: yellow;
+  }
+  @include media(from desk) {
+    background: green;
+  }
+}
+
 .container {
   @extend %grid;
+  padding: 0 40px;
+  border-left: 2px solid lightsteelblue;
 }
 
 .row {

@@ -1,4 +1,1996 @@
-/* normalize.css v2.1.0 | MIT License | git.io/normalize */article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}audio,canvas,video{display:inline-block}audio:not([controls]){display:none;height:0}[hidden]{display:none}html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}body{margin:0}a:focus{outline:thin dotted}a:active,a:hover{outline:0}h1{font-size:2em;margin:0.67em 0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}dfn{font-style:italic}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}mark{background:#ff0;color:#000}code,kbd,pre,samp{font-family:monospace, serif;font-size:1em}pre{white-space:pre-wrap}q{quotes:"\201C" "\201D" "\2018" "\2019"}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:0}fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:0.35em 0.625em 0.75em}legend{border:0;padding:0}button,input,select,textarea{font-family:inherit;font-size:100%;margin:0}button,input{line-height:normal}button,select{text-transform:none}button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}textarea{overflow:auto;vertical-align:top}table{border-collapse:collapse;border-spacing:0}.row:after{content:"";display:table;clear:both}html{font-family:"Open Sans",sans-serif;font-size:100%;line-height:1.6;color:#222}ul,ol,dl,p,table{margin:0 0 25.6px;margin: 0 0 1.6rem}ul ul,ol ul,ul ol,ol ol{margin-top:0;margin-bottom:0}dt{font-weight:bold}dd{margin-bottom:25.6px;margin-bottom:1.6rem;margin-left:0}hgroup,h1,h2,h3,h4,h5,h6{margin:0;text-rendering:optimizeLegibility;font-family:"Roboto Slab",sans-serif;font-weight:700;color:#444}.alpha,h1{line-height:1.25;font-size:41px;font-size:2.5625rem}.beta,h2{line-height:1.65323;font-size:31px;font-size:1.9375rem}.gama,h3{line-height:1.97115;font-size:26px;font-size:1.625rem}.delta,h4{line-height:1.22143;font-size:21px;font-size:1.3125rem}.epsylon,h5{line-height:1.35;font-size:19px;font-size:1.1875rem}.zeta,h6{line-height:1.425;font-size:18px;font-size:1.125rem}hgroup .alpha,hgroup h1,hgroup .beta,hgroup h2,hgroup .gama,hgroup h3,hgroup .delta,hgroup h4,hgroup .epsylon,hgroup h5{margin:0}pre code{word-wrap:normal}pre code{white-space:-moz-pre-wrap;white-space:pre-wrap}pre{white-space:pre}code{white-space:pre;font-family:monospace}*{-webkit-box-sizing:border-box !important;-moz-box-sizing:border-box !important;box-sizing:border-box !important}@-ms-viewport{width:device-width}@viewport{width:device-width}img{max-width:100%}.container{margin-left:auto;margin-right:auto;width:1000px}@media only screen{.container{max-width:100%}}.row{margin-left:-10px}[class*="span"],.span1,.span2,.span3,.span4,.span5,.span6,.span7,.span8,.span9,.span10,.span11,.span12{border:0 solid transparent;border-left-width:10px;-webkit-background-clip:padding-box !important;-moz-background-clip:padding-box !important;background-clip:padding-box !important;-webkit-background-origin:padding-box !important;-moz-background-origin:padding-box !important;-ms-background-origin:padding-box !important;-o-background-origin:padding-box !important;background-origin:padding-box !important}[class*="span"],.span1,.span2,.span3,.span4,.span5,.span6,.span7,.span8,.span9,.span10,.span11,.span12{float:left;min-height:1px}.push1,.pull1,.push2,.pull2,.push3,.pull3,.push4,.pull4,.push5,.pull5,.push6,.pull6,.push7,.pull7,.push8,.pull8,.push9,.pull9,.push10,.pull10,.push11,.pull11,.push12,.pull12{position:relative}.span1{width:8.33333%}.offset1{margin-left:8.33333%}.push1{left:8.33333%}.pull1{left:-8.33333%}.span2{width:16.66667%}.offset2{margin-left:16.66667%}.push2{left:16.66667%}.pull2{left:-16.66667%}.span3{width:25%}.offset3{margin-left:25%}.push3{left:25%}.pull3{left:-25%}.span4{width:33.33333%}.offset4{margin-left:33.33333%}.push4{left:33.33333%}.pull4{left:-33.33333%}.span5{width:41.66667%}.offset5{margin-left:41.66667%}.push5{left:41.66667%}.pull5{left:-41.66667%}.span6{width:50%}.offset6{margin-left:50%}.push6{left:50%}.pull6{left:-50%}.span7{width:58.33333%}.offset7{margin-left:58.33333%}.push7{left:58.33333%}.pull7{left:-58.33333%}.span8{width:66.66667%}.offset8{margin-left:66.66667%}.push8{left:66.66667%}.pull8{left:-66.66667%}.span9{width:75%}.offset9{margin-left:75%}.push9{left:75%}.pull9{left:-75%}.span10{width:83.33333%}.offset10{margin-left:83.33333%}.push10{left:83.33333%}.pull10{left:-83.33333%}.span11{width:91.66667%}.offset11{margin-left:91.66667%}.push11{left:91.66667%}.pull11{left:-91.66667%}.span12{width:100%}.offset12{margin-left:100%}.push12{left:100%}.pull12{left:-100%}@media only screen and (max-width: 399px){.small-span1{width:8.33333%}.small-offset1{margin-left:8.33333%}.small-push1{position:relative;top:0;left:8.33333%}.small-pull1{position:relative;top:0;left:-8.33333%}.small-span2{width:16.66667%}.small-offset2{margin-left:16.66667%}.small-push2{position:relative;top:0;left:16.66667%}.small-pull2{position:relative;top:0;left:-16.66667%}.small-span3{width:25%}.small-offset3{margin-left:25%}.small-push3{position:relative;top:0;left:25%}.small-pull3{position:relative;top:0;left:-25%}.small-span4{width:33.33333%}.small-offset4{margin-left:33.33333%}.small-push4{position:relative;top:0;left:33.33333%}.small-pull4{position:relative;top:0;left:-33.33333%}.small-span5{width:41.66667%}.small-offset5{margin-left:41.66667%}.small-push5{position:relative;top:0;left:41.66667%}.small-pull5{position:relative;top:0;left:-41.66667%}.small-span6{width:50%}.small-offset6{margin-left:50%}.small-push6{position:relative;top:0;left:50%}.small-pull6{position:relative;top:0;left:-50%}.small-span7{width:58.33333%}.small-offset7{margin-left:58.33333%}.small-push7{position:relative;top:0;left:58.33333%}.small-pull7{position:relative;top:0;left:-58.33333%}.small-span8{width:66.66667%}.small-offset8{margin-left:66.66667%}.small-push8{position:relative;top:0;left:66.66667%}.small-pull8{position:relative;top:0;left:-66.66667%}.small-span9{width:75%}.small-offset9{margin-left:75%}.small-push9{position:relative;top:0;left:75%}.small-pull9{position:relative;top:0;left:-75%}.small-span10{width:83.33333%}.small-offset10{margin-left:83.33333%}.small-push10{position:relative;top:0;left:83.33333%}.small-pull10{position:relative;top:0;left:-83.33333%}.small-span11{width:91.66667%}.small-offset11{margin-left:91.66667%}.small-push11{position:relative;top:0;left:91.66667%}.small-pull11{position:relative;top:0;left:-91.66667%}.small-span12{width:100%}.small-offset12{margin-left:100%}.small-push12{position:relative;top:0;left:100%}.small-pull12{position:relative;top:0;left:-100%}}@media only screen and (min-width: 400px) and (max-width: 767px){.hand-span1{width:8.33333%}.hand-offset1{margin-left:8.33333%}.hand-push1{position:relative;top:0;left:8.33333%}.hand-pull1{position:relative;top:0;left:-8.33333%}.hand-span2{width:16.66667%}.hand-offset2{margin-left:16.66667%}.hand-push2{position:relative;top:0;left:16.66667%}.hand-pull2{position:relative;top:0;left:-16.66667%}.hand-span3{width:25%}.hand-offset3{margin-left:25%}.hand-push3{position:relative;top:0;left:25%}.hand-pull3{position:relative;top:0;left:-25%}.hand-span4{width:33.33333%}.hand-offset4{margin-left:33.33333%}.hand-push4{position:relative;top:0;left:33.33333%}.hand-pull4{position:relative;top:0;left:-33.33333%}.hand-span5{width:41.66667%}.hand-offset5{margin-left:41.66667%}.hand-push5{position:relative;top:0;left:41.66667%}.hand-pull5{position:relative;top:0;left:-41.66667%}.hand-span6{width:50%}.hand-offset6{margin-left:50%}.hand-push6{position:relative;top:0;left:50%}.hand-pull6{position:relative;top:0;left:-50%}.hand-span7{width:58.33333%}.hand-offset7{margin-left:58.33333%}.hand-push7{position:relative;top:0;left:58.33333%}.hand-pull7{position:relative;top:0;left:-58.33333%}.hand-span8{width:66.66667%}.hand-offset8{margin-left:66.66667%}.hand-push8{position:relative;top:0;left:66.66667%}.hand-pull8{position:relative;top:0;left:-66.66667%}.hand-span9{width:75%}.hand-offset9{margin-left:75%}.hand-push9{position:relative;top:0;left:75%}.hand-pull9{position:relative;top:0;left:-75%}.hand-span10{width:83.33333%}.hand-offset10{margin-left:83.33333%}.hand-push10{position:relative;top:0;left:83.33333%}.hand-pull10{position:relative;top:0;left:-83.33333%}.hand-span11{width:91.66667%}.hand-offset11{margin-left:91.66667%}.hand-push11{position:relative;top:0;left:91.66667%}.hand-pull11{position:relative;top:0;left:-91.66667%}.hand-span12{width:100%}.hand-offset12{margin-left:100%}.hand-push12{position:relative;top:0;left:100%}.hand-pull12{position:relative;top:0;left:-100%}}@media only screen and (min-width: 768px) and (max-width: 1279px){.lap-span1{width:8.33333%}.lap-offset1{margin-left:8.33333%}.lap-push1{position:relative;top:0;left:8.33333%}.lap-pull1{position:relative;top:0;left:-8.33333%}.lap-span2{width:16.66667%}.lap-offset2{margin-left:16.66667%}.lap-push2{position:relative;top:0;left:16.66667%}.lap-pull2{position:relative;top:0;left:-16.66667%}.lap-span3{width:25%}.lap-offset3{margin-left:25%}.lap-push3{position:relative;top:0;left:25%}.lap-pull3{position:relative;top:0;left:-25%}.lap-span4{width:33.33333%}.lap-offset4{margin-left:33.33333%}.lap-push4{position:relative;top:0;left:33.33333%}.lap-pull4{position:relative;top:0;left:-33.33333%}.lap-span5{width:41.66667%}.lap-offset5{margin-left:41.66667%}.lap-push5{position:relative;top:0;left:41.66667%}.lap-pull5{position:relative;top:0;left:-41.66667%}.lap-span6{width:50%}.lap-offset6{margin-left:50%}.lap-push6{position:relative;top:0;left:50%}.lap-pull6{position:relative;top:0;left:-50%}.lap-span7{width:58.33333%}.lap-offset7{margin-left:58.33333%}.lap-push7{position:relative;top:0;left:58.33333%}.lap-pull7{position:relative;top:0;left:-58.33333%}.lap-span8{width:66.66667%}.lap-offset8{margin-left:66.66667%}.lap-push8{position:relative;top:0;left:66.66667%}.lap-pull8{position:relative;top:0;left:-66.66667%}.lap-span9{width:75%}.lap-offset9{margin-left:75%}.lap-push9{position:relative;top:0;left:75%}.lap-pull9{position:relative;top:0;left:-75%}.lap-span10{width:83.33333%}.lap-offset10{margin-left:83.33333%}.lap-push10{position:relative;top:0;left:83.33333%}.lap-pull10{position:relative;top:0;left:-83.33333%}.lap-span11{width:91.66667%}.lap-offset11{margin-left:91.66667%}.lap-push11{position:relative;top:0;left:91.66667%}.lap-pull11{position:relative;top:0;left:-91.66667%}.lap-span12{width:100%}.lap-offset12{margin-left:100%}.lap-push12{position:relative;top:0;left:100%}.lap-pull12{position:relative;top:0;left:-100%}}@media only screen and (min-width: 1280px){.desk-span1{width:8.33333%}.desk-offset1{margin-left:8.33333%}.desk-push1{position:relative;top:0;left:8.33333%}.desk-pull1{position:relative;top:0;left:-8.33333%}.desk-span2{width:16.66667%}.desk-offset2{margin-left:16.66667%}.desk-push2{position:relative;top:0;left:16.66667%}.desk-pull2{position:relative;top:0;left:-16.66667%}.desk-span3{width:25%}.desk-offset3{margin-left:25%}.desk-push3{position:relative;top:0;left:25%}.desk-pull3{position:relative;top:0;left:-25%}.desk-span4{width:33.33333%}.desk-offset4{margin-left:33.33333%}.desk-push4{position:relative;top:0;left:33.33333%}.desk-pull4{position:relative;top:0;left:-33.33333%}.desk-span5{width:41.66667%}.desk-offset5{margin-left:41.66667%}.desk-push5{position:relative;top:0;left:41.66667%}.desk-pull5{position:relative;top:0;left:-41.66667%}.desk-span6{width:50%}.desk-offset6{margin-left:50%}.desk-push6{position:relative;top:0;left:50%}.desk-pull6{position:relative;top:0;left:-50%}.desk-span7{width:58.33333%}.desk-offset7{margin-left:58.33333%}.desk-push7{position:relative;top:0;left:58.33333%}.desk-pull7{position:relative;top:0;left:-58.33333%}.desk-span8{width:66.66667%}.desk-offset8{margin-left:66.66667%}.desk-push8{position:relative;top:0;left:66.66667%}.desk-pull8{position:relative;top:0;left:-66.66667%}.desk-span9{width:75%}.desk-offset9{margin-left:75%}.desk-push9{position:relative;top:0;left:75%}.desk-pull9{position:relative;top:0;left:-75%}.desk-span10{width:83.33333%}.desk-offset10{margin-left:83.33333%}.desk-push10{position:relative;top:0;left:83.33333%}.desk-pull10{position:relative;top:0;left:-83.33333%}.desk-span11{width:91.66667%}.desk-offset11{margin-left:91.66667%}.desk-push11{position:relative;top:0;left:91.66667%}.desk-pull11{position:relative;top:0;left:-91.66667%}.desk-span12{width:100%}.desk-offset12{margin-left:100%}.desk-push12{position:relative;top:0;left:100%}.desk-pull12{position:relative;top:0;left:-100%}}.pull-left{float:left}.push-right{float:right}/*
+/* normalize.css v2.1.0 | MIT License | git.io/normalize */
+/* ==========================================================================
+   HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined in IE 8/9.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/normalize\/_normalize\.scss}line{font-family:\0000322}}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/**
+ * Correct `inline-block` display not defined in IE 8/9.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/normalize\/_normalize\.scss}line{font-family:\0000332}}
+audio,
+canvas,
+video {
+  display: inline-block;
+}
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/normalize\/_normalize\.scss}line{font-family:\0000341}}
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/normalize\/_normalize\.scss}line{font-family:\0000350}}
+[hidden] {
+  display: none;
+}
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/normalize\/_normalize\.scss}line{font-family:\0000364}}
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/**
+ * Remove default margin.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/normalize\/_normalize\.scss}line{font-family:\0000374}}
+body {
+  margin: 0;
+}
+
+/* ==========================================================================
+   Links
+   ========================================================================== */
+/**
+ * Address `outline` inconsistency between Chrome and other browsers.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/normalize\/_normalize\.scss}line{font-family:\0000386}}
+a:focus {
+  outline: thin dotted;
+}
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/normalize\/_normalize\.scss}line{font-family:\0000395}}
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari 5, and Chrome.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/normalize\/_normalize\.scss}line{font-family:\00003108}}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/**
+ * Address styling not present in IE 8/9, Safari 5, and Chrome.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/normalize\/_normalize\.scss}line{font-family:\00003117}}
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/normalize\/_normalize\.scss}line{font-family:\00003126}}
+b,
+strong {
+  font-weight: bold;
+}
+
+/**
+ * Address styling not present in Safari 5 and Chrome.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/normalize\/_normalize\.scss}line{font-family:\00003134}}
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/normalize\/_normalize\.scss}line{font-family:\00003142}}
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/normalize\/_normalize\.scss}line{font-family:\00003152}}
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/**
+ * Correct font family set oddly in Safari 5 and Chrome.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/normalize\/_normalize\.scss}line{font-family:\00003164}}
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  font-size: 1em;
+}
+
+/**
+ * Improve readability of pre-formatted text in all browsers.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/normalize\/_normalize\.scss}line{font-family:\00003173}}
+pre {
+  white-space: pre-wrap;
+}
+
+/**
+ * Set consistent quote types.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/normalize\/_normalize\.scss}line{font-family:\00003181}}
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/normalize\/_normalize\.scss}line{font-family:\00003189}}
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/normalize\/_normalize\.scss}line{font-family:\00003198}}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/normalize\/_normalize\.scss}line{font-family:\00003205}}
+sup {
+  top: -0.5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/normalize\/_normalize\.scss}line{font-family:\00003209}}
+sub {
+  bottom: -0.25em;
+}
+
+/* ==========================================================================
+   Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/normalize\/_normalize\.scss}line{font-family:\00003221}}
+img {
+  border: 0;
+}
+
+/**
+ * Correct overflow displayed oddly in IE 9.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/normalize\/_normalize\.scss}line{font-family:\00003229}}
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* ==========================================================================
+   Figures
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari 5.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/normalize\/_normalize\.scss}line{font-family:\00003241}}
+figure {
+  margin: 0;
+}
+
+/* ==========================================================================
+   Forms
+   ========================================================================== */
+/**
+ * Define consistent border, margin, and padding.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/normalize\/_normalize\.scss}line{font-family:\00003253}}
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/normalize\/_normalize\.scss}line{font-family:\00003264}}
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * 1. Correct font family not being inherited in all browsers.
+ * 2. Correct font size not being inherited in all browsers.
+ * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/normalize\/_normalize\.scss}line{font-family:\00003278}}
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 2 */
+  margin: 0;
+  /* 3 */
+}
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/normalize\/_normalize\.scss}line{font-family:\00003290}}
+button,
+input {
+  line-height: normal;
+}
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Chrome, Safari 5+, and IE 8+.
+ * Correct `select` style inheritance in Firefox 4+ and Opera.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/normalize\/_normalize\.scss}line{font-family:\00003302}}
+button,
+select {
+  text-transform: none;
+}
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/normalize\/_normalize\.scss}line{font-family:\00003317}}
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */
+}
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/normalize\/_normalize\.scss}line{font-family:\00003327}}
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/**
+ * 1. Address box sizing set to `content-box` in IE 8/9.
+ * 2. Remove excess padding in IE 8/9.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/normalize\/_normalize\.scss}line{font-family:\00003337}}
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari 5 and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
+ *    (include `-moz` to future-proof).
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/normalize\/_normalize\.scss}line{font-family:\00003348}}
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
+  box-sizing: content-box;
+}
+
+/**
+ * Remove inner padding and search cancel button in Safari 5 and Chrome
+ * on OS X.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/normalize\/_normalize\.scss}line{font-family:\00003361}}
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/normalize\/_normalize\.scss}line{font-family:\00003370}}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/**
+ * 1. Remove default vertical scrollbar in IE 8/9.
+ * 2. Improve readability and alignment in all browsers.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/normalize\/_normalize\.scss}line{font-family:\00003380}}
+textarea {
+  overflow: auto;
+  /* 1 */
+  vertical-align: top;
+  /* 2 */
+}
+
+/* ==========================================================================
+   Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/normalize\/_normalize\.scss}line{font-family:\00003393}}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_classes\.scss}line{font-family:\0000317}}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_typography\.scss}line{font-family:\000035}}
+html {
+  font-family: "Open Sans", sans-serif;
+  font-size: 100%;
+  line-height: 1.5;
+  color: #222222;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_typography\.scss}line{font-family:\0000314}}
+ul, ol, dl, p, table {
+  margin: 0 0 24px;
+  margin:  0 0 1.5rem;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_typography\.scss}line{font-family:\0000318}}
+ul ul, ol ul, ul ol, ol ol {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_typography\.scss}line{font-family:\0000326}}
+dt {
+  font-weight: bold;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_typography\.scss}line{font-family:\0000327}}
+dd {
+  margin-bottom: 24px;
+  margin-bottom: 1.5rem;
+  margin-left: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_typography\.scss}line{font-family:\0000333}}
+hgroup, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  text-rendering: optimizeLegibility;
+  font-family: "Roboto Slab", sans-serif;
+  font-weight: 700;
+  color: #444444;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_typography\.scss}line{font-family:\0000344}}
+.alpha, h1 {
+  line-height: 1.17195;
+  font-size: 41px;
+  font-size: 2.5625rem;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_typography\.scss}line{font-family:\0000345}}
+.beta, h2 {
+  line-height: 1.55;
+  font-size: 31px;
+  font-size: 1.9375rem;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_typography\.scss}line{font-family:\0000346}}
+.gama, h3 {
+  line-height: 1.84808;
+  font-size: 26px;
+  font-size: 1.625rem;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_typography\.scss}line{font-family:\0000347}}
+.delta, h4 {
+  line-height: 1.14524;
+  font-size: 21px;
+  font-size: 1.3125rem;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_typography\.scss}line{font-family:\0000348}}
+.epsylon, h5 {
+  line-height: 1.26579;
+  font-size: 19px;
+  font-size: 1.1875rem;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_typography\.scss}line{font-family:\0000349}}
+.zeta, h6 {
+  line-height: 1.33611;
+  font-size: 18px;
+  font-size: 1.125rem;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_typography\.scss}line{font-family:\0000354}}
+hgroup .alpha, hgroup h1, hgroup .beta, hgroup h2, hgroup .gama, hgroup h3, hgroup .delta, hgroup h4, hgroup .epsylon, hgroup h5 {
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_typography\.scss}line{font-family:\0000367}}
+pre code {
+  word-wrap: normal;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_typography\.scss}line{font-family:\0000371}}
+pre code {
+  white-space: -moz-pre-wrap;
+  white-space: pre-wrap;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_typography\.scss}line{font-family:\0000376}}
+pre {
+  white-space: pre;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_typography\.scss}line{font-family:\0000380}}
+code {
+  white-space: pre;
+  font-family: monospace;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\000031}}
+* {
+  -webkit-box-sizing: border-box !important;
+  -moz-box-sizing: border-box !important;
+  box-sizing: border-box !important;
+}
+
+@-ms-viewport {
+  width: device-width;
+}
+
+@viewport {
+  width: device-width;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\000037}}
+img {
+  max-width: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\0000313}}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+}
+@media only screen {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\0000313}}
+  .container {
+    max-width: 100%;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\0000325}}
+.row {
+  margin-left: -10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\0000330}}
+[class*="span"], .span1, .span2, .span3, .span4, .span5, .span6, .span7, .span8, .span9, .span10, .span11, .span12 {
+  border: 0 solid transparent;
+  border-left-width: 10px;
+  -webkit-background-clip: padding-box !important;
+  -moz-background-clip: padding-box !important;
+  background-clip: padding-box !important;
+  -webkit-background-origin: padding-box !important;
+  -moz-background-origin: padding-box !important;
+  -ms-background-origin: padding-box !important;
+  -o-background-origin: padding-box !important;
+  background-origin: padding-box !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\0000338}}
+[class*="span"], .span1, .span2, .span3, .span4, .span5, .span6, .span7, .span8, .span9, .span10, .span11, .span12 {
+  float: left;
+  min-height: 1px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003154}}
+.push1, .pull1, .push2, .pull2, .push3, .pull3, .push4, .pull4, .push5, .pull5, .push6, .pull6, .push7, .pull7, .push8, .pull8, .push9, .pull9, .push10, .pull10, .push11, .pull11, .push12, .pull12 {
+  position: relative;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003167}}
+.span1 {
+  width: 8.33333%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003186}}
+.offset1 {
+  margin-left: 8.33333%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003174}}
+.push1 {
+  left: 8.33333%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003180}}
+.pull1 {
+  left: -8.33333%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003167}}
+.span2 {
+  width: 16.66667%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003186}}
+.offset2 {
+  margin-left: 16.66667%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003174}}
+.push2 {
+  left: 16.66667%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003180}}
+.pull2 {
+  left: -16.66667%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003167}}
+.span3 {
+  width: 25%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003186}}
+.offset3 {
+  margin-left: 25%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003174}}
+.push3 {
+  left: 25%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003180}}
+.pull3 {
+  left: -25%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003167}}
+.span4 {
+  width: 33.33333%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003186}}
+.offset4 {
+  margin-left: 33.33333%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003174}}
+.push4 {
+  left: 33.33333%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003180}}
+.pull4 {
+  left: -33.33333%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003167}}
+.span5 {
+  width: 41.66667%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003186}}
+.offset5 {
+  margin-left: 41.66667%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003174}}
+.push5 {
+  left: 41.66667%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003180}}
+.pull5 {
+  left: -41.66667%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003167}}
+.span6 {
+  width: 50%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003186}}
+.offset6 {
+  margin-left: 50%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003174}}
+.push6 {
+  left: 50%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003180}}
+.pull6 {
+  left: -50%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003167}}
+.span7 {
+  width: 58.33333%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003186}}
+.offset7 {
+  margin-left: 58.33333%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003174}}
+.push7 {
+  left: 58.33333%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003180}}
+.pull7 {
+  left: -58.33333%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003167}}
+.span8 {
+  width: 66.66667%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003186}}
+.offset8 {
+  margin-left: 66.66667%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003174}}
+.push8 {
+  left: 66.66667%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003180}}
+.pull8 {
+  left: -66.66667%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003167}}
+.span9 {
+  width: 75%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003186}}
+.offset9 {
+  margin-left: 75%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003174}}
+.push9 {
+  left: 75%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003180}}
+.pull9 {
+  left: -75%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003167}}
+.span10 {
+  width: 83.33333%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003186}}
+.offset10 {
+  margin-left: 83.33333%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003174}}
+.push10 {
+  left: 83.33333%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003180}}
+.pull10 {
+  left: -83.33333%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003167}}
+.span11 {
+  width: 91.66667%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003186}}
+.offset11 {
+  margin-left: 91.66667%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003174}}
+.push11 {
+  left: 91.66667%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003180}}
+.pull11 {
+  left: -91.66667%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003167}}
+.span12 {
+  width: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003186}}
+.offset12 {
+  margin-left: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003174}}
+.push12 {
+  left: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003180}}
+.pull12 {
+  left: -100%;
+}
+
+@media only screen {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+  .small-span1 {
+    width: 8.33333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+  .small-offset1 {
+    margin-left: 8.33333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003225}}
+  .small-push1 {
+    position: relative;
+    top: 0;
+    left: 8.33333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003232}}
+  .small-pull1 {
+    position: relative;
+    top: 0;
+    left: -8.33333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+  .small-span2 {
+    width: 16.66667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+  .small-offset2 {
+    margin-left: 16.66667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003225}}
+  .small-push2 {
+    position: relative;
+    top: 0;
+    left: 16.66667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003232}}
+  .small-pull2 {
+    position: relative;
+    top: 0;
+    left: -16.66667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+  .small-span3 {
+    width: 25%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+  .small-offset3 {
+    margin-left: 25%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003225}}
+  .small-push3 {
+    position: relative;
+    top: 0;
+    left: 25%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003232}}
+  .small-pull3 {
+    position: relative;
+    top: 0;
+    left: -25%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+  .small-span4 {
+    width: 33.33333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+  .small-offset4 {
+    margin-left: 33.33333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003225}}
+  .small-push4 {
+    position: relative;
+    top: 0;
+    left: 33.33333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003232}}
+  .small-pull4 {
+    position: relative;
+    top: 0;
+    left: -33.33333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+  .small-span5 {
+    width: 41.66667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+  .small-offset5 {
+    margin-left: 41.66667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003225}}
+  .small-push5 {
+    position: relative;
+    top: 0;
+    left: 41.66667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003232}}
+  .small-pull5 {
+    position: relative;
+    top: 0;
+    left: -41.66667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+  .small-span6 {
+    width: 50%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+  .small-offset6 {
+    margin-left: 50%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003225}}
+  .small-push6 {
+    position: relative;
+    top: 0;
+    left: 50%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003232}}
+  .small-pull6 {
+    position: relative;
+    top: 0;
+    left: -50%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+  .small-span7 {
+    width: 58.33333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+  .small-offset7 {
+    margin-left: 58.33333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003225}}
+  .small-push7 {
+    position: relative;
+    top: 0;
+    left: 58.33333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003232}}
+  .small-pull7 {
+    position: relative;
+    top: 0;
+    left: -58.33333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+  .small-span8 {
+    width: 66.66667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+  .small-offset8 {
+    margin-left: 66.66667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003225}}
+  .small-push8 {
+    position: relative;
+    top: 0;
+    left: 66.66667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003232}}
+  .small-pull8 {
+    position: relative;
+    top: 0;
+    left: -66.66667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+  .small-span9 {
+    width: 75%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+  .small-offset9 {
+    margin-left: 75%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003225}}
+  .small-push9 {
+    position: relative;
+    top: 0;
+    left: 75%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003232}}
+  .small-pull9 {
+    position: relative;
+    top: 0;
+    left: -75%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+  .small-span10 {
+    width: 83.33333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+  .small-offset10 {
+    margin-left: 83.33333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003225}}
+  .small-push10 {
+    position: relative;
+    top: 0;
+    left: 83.33333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003232}}
+  .small-pull10 {
+    position: relative;
+    top: 0;
+    left: -83.33333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+  .small-span11 {
+    width: 91.66667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+  .small-offset11 {
+    margin-left: 91.66667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003225}}
+  .small-push11 {
+    position: relative;
+    top: 0;
+    left: 91.66667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003232}}
+  .small-pull11 {
+    position: relative;
+    top: 0;
+    left: -91.66667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+  .small-span12 {
+    width: 100%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+  .small-offset12 {
+    margin-left: 100%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003225}}
+  .small-push12 {
+    position: relative;
+    top: 0;
+    left: 100%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003232}}
+  .small-pull12 {
+    position: relative;
+    top: 0;
+    left: -100%;
+  }
+}
+@media only screen and (min-width: 400px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+  .hand-span1 {
+    width: 8.33333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+  .hand-offset1 {
+    margin-left: 8.33333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003225}}
+  .hand-push1 {
+    position: relative;
+    top: 0;
+    left: 8.33333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003232}}
+  .hand-pull1 {
+    position: relative;
+    top: 0;
+    left: -8.33333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+  .hand-span2 {
+    width: 16.66667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+  .hand-offset2 {
+    margin-left: 16.66667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003225}}
+  .hand-push2 {
+    position: relative;
+    top: 0;
+    left: 16.66667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003232}}
+  .hand-pull2 {
+    position: relative;
+    top: 0;
+    left: -16.66667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+  .hand-span3 {
+    width: 25%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+  .hand-offset3 {
+    margin-left: 25%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003225}}
+  .hand-push3 {
+    position: relative;
+    top: 0;
+    left: 25%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003232}}
+  .hand-pull3 {
+    position: relative;
+    top: 0;
+    left: -25%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+  .hand-span4 {
+    width: 33.33333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+  .hand-offset4 {
+    margin-left: 33.33333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003225}}
+  .hand-push4 {
+    position: relative;
+    top: 0;
+    left: 33.33333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003232}}
+  .hand-pull4 {
+    position: relative;
+    top: 0;
+    left: -33.33333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+  .hand-span5 {
+    width: 41.66667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+  .hand-offset5 {
+    margin-left: 41.66667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003225}}
+  .hand-push5 {
+    position: relative;
+    top: 0;
+    left: 41.66667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003232}}
+  .hand-pull5 {
+    position: relative;
+    top: 0;
+    left: -41.66667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+  .hand-span6 {
+    width: 50%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+  .hand-offset6 {
+    margin-left: 50%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003225}}
+  .hand-push6 {
+    position: relative;
+    top: 0;
+    left: 50%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003232}}
+  .hand-pull6 {
+    position: relative;
+    top: 0;
+    left: -50%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+  .hand-span7 {
+    width: 58.33333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+  .hand-offset7 {
+    margin-left: 58.33333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003225}}
+  .hand-push7 {
+    position: relative;
+    top: 0;
+    left: 58.33333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003232}}
+  .hand-pull7 {
+    position: relative;
+    top: 0;
+    left: -58.33333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+  .hand-span8 {
+    width: 66.66667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+  .hand-offset8 {
+    margin-left: 66.66667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003225}}
+  .hand-push8 {
+    position: relative;
+    top: 0;
+    left: 66.66667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003232}}
+  .hand-pull8 {
+    position: relative;
+    top: 0;
+    left: -66.66667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+  .hand-span9 {
+    width: 75%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+  .hand-offset9 {
+    margin-left: 75%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003225}}
+  .hand-push9 {
+    position: relative;
+    top: 0;
+    left: 75%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003232}}
+  .hand-pull9 {
+    position: relative;
+    top: 0;
+    left: -75%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+  .hand-span10 {
+    width: 83.33333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+  .hand-offset10 {
+    margin-left: 83.33333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003225}}
+  .hand-push10 {
+    position: relative;
+    top: 0;
+    left: 83.33333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003232}}
+  .hand-pull10 {
+    position: relative;
+    top: 0;
+    left: -83.33333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+  .hand-span11 {
+    width: 91.66667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+  .hand-offset11 {
+    margin-left: 91.66667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003225}}
+  .hand-push11 {
+    position: relative;
+    top: 0;
+    left: 91.66667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003232}}
+  .hand-pull11 {
+    position: relative;
+    top: 0;
+    left: -91.66667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+  .hand-span12 {
+    width: 100%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+  .hand-offset12 {
+    margin-left: 100%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003225}}
+  .hand-push12 {
+    position: relative;
+    top: 0;
+    left: 100%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003232}}
+  .hand-pull12 {
+    position: relative;
+    top: 0;
+    left: -100%;
+  }
+}
+@media only screen and (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+  .lap-span1 {
+    width: 8.33333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+  .lap-offset1 {
+    margin-left: 8.33333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003225}}
+  .lap-push1 {
+    position: relative;
+    top: 0;
+    left: 8.33333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003232}}
+  .lap-pull1 {
+    position: relative;
+    top: 0;
+    left: -8.33333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+  .lap-span2 {
+    width: 16.66667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+  .lap-offset2 {
+    margin-left: 16.66667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003225}}
+  .lap-push2 {
+    position: relative;
+    top: 0;
+    left: 16.66667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003232}}
+  .lap-pull2 {
+    position: relative;
+    top: 0;
+    left: -16.66667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+  .lap-span3 {
+    width: 25%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+  .lap-offset3 {
+    margin-left: 25%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003225}}
+  .lap-push3 {
+    position: relative;
+    top: 0;
+    left: 25%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003232}}
+  .lap-pull3 {
+    position: relative;
+    top: 0;
+    left: -25%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+  .lap-span4 {
+    width: 33.33333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+  .lap-offset4 {
+    margin-left: 33.33333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003225}}
+  .lap-push4 {
+    position: relative;
+    top: 0;
+    left: 33.33333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003232}}
+  .lap-pull4 {
+    position: relative;
+    top: 0;
+    left: -33.33333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+  .lap-span5 {
+    width: 41.66667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+  .lap-offset5 {
+    margin-left: 41.66667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003225}}
+  .lap-push5 {
+    position: relative;
+    top: 0;
+    left: 41.66667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003232}}
+  .lap-pull5 {
+    position: relative;
+    top: 0;
+    left: -41.66667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+  .lap-span6 {
+    width: 50%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+  .lap-offset6 {
+    margin-left: 50%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003225}}
+  .lap-push6 {
+    position: relative;
+    top: 0;
+    left: 50%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003232}}
+  .lap-pull6 {
+    position: relative;
+    top: 0;
+    left: -50%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+  .lap-span7 {
+    width: 58.33333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+  .lap-offset7 {
+    margin-left: 58.33333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003225}}
+  .lap-push7 {
+    position: relative;
+    top: 0;
+    left: 58.33333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003232}}
+  .lap-pull7 {
+    position: relative;
+    top: 0;
+    left: -58.33333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+  .lap-span8 {
+    width: 66.66667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+  .lap-offset8 {
+    margin-left: 66.66667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003225}}
+  .lap-push8 {
+    position: relative;
+    top: 0;
+    left: 66.66667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003232}}
+  .lap-pull8 {
+    position: relative;
+    top: 0;
+    left: -66.66667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+  .lap-span9 {
+    width: 75%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+  .lap-offset9 {
+    margin-left: 75%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003225}}
+  .lap-push9 {
+    position: relative;
+    top: 0;
+    left: 75%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003232}}
+  .lap-pull9 {
+    position: relative;
+    top: 0;
+    left: -75%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+  .lap-span10 {
+    width: 83.33333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+  .lap-offset10 {
+    margin-left: 83.33333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003225}}
+  .lap-push10 {
+    position: relative;
+    top: 0;
+    left: 83.33333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003232}}
+  .lap-pull10 {
+    position: relative;
+    top: 0;
+    left: -83.33333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+  .lap-span11 {
+    width: 91.66667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+  .lap-offset11 {
+    margin-left: 91.66667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003225}}
+  .lap-push11 {
+    position: relative;
+    top: 0;
+    left: 91.66667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003232}}
+  .lap-pull11 {
+    position: relative;
+    top: 0;
+    left: -91.66667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+  .lap-span12 {
+    width: 100%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+  .lap-offset12 {
+    margin-left: 100%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003225}}
+  .lap-push12 {
+    position: relative;
+    top: 0;
+    left: 100%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003232}}
+  .lap-pull12 {
+    position: relative;
+    top: 0;
+    left: -100%;
+  }
+}
+@media only screen and (min-width: 1280px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+  .desk-span1 {
+    width: 8.33333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+  .desk-offset1 {
+    margin-left: 8.33333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003225}}
+  .desk-push1 {
+    position: relative;
+    top: 0;
+    left: 8.33333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003232}}
+  .desk-pull1 {
+    position: relative;
+    top: 0;
+    left: -8.33333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+  .desk-span2 {
+    width: 16.66667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+  .desk-offset2 {
+    margin-left: 16.66667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003225}}
+  .desk-push2 {
+    position: relative;
+    top: 0;
+    left: 16.66667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003232}}
+  .desk-pull2 {
+    position: relative;
+    top: 0;
+    left: -16.66667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+  .desk-span3 {
+    width: 25%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+  .desk-offset3 {
+    margin-left: 25%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003225}}
+  .desk-push3 {
+    position: relative;
+    top: 0;
+    left: 25%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003232}}
+  .desk-pull3 {
+    position: relative;
+    top: 0;
+    left: -25%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+  .desk-span4 {
+    width: 33.33333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+  .desk-offset4 {
+    margin-left: 33.33333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003225}}
+  .desk-push4 {
+    position: relative;
+    top: 0;
+    left: 33.33333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003232}}
+  .desk-pull4 {
+    position: relative;
+    top: 0;
+    left: -33.33333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+  .desk-span5 {
+    width: 41.66667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+  .desk-offset5 {
+    margin-left: 41.66667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003225}}
+  .desk-push5 {
+    position: relative;
+    top: 0;
+    left: 41.66667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003232}}
+  .desk-pull5 {
+    position: relative;
+    top: 0;
+    left: -41.66667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+  .desk-span6 {
+    width: 50%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+  .desk-offset6 {
+    margin-left: 50%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003225}}
+  .desk-push6 {
+    position: relative;
+    top: 0;
+    left: 50%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003232}}
+  .desk-pull6 {
+    position: relative;
+    top: 0;
+    left: -50%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+  .desk-span7 {
+    width: 58.33333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+  .desk-offset7 {
+    margin-left: 58.33333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003225}}
+  .desk-push7 {
+    position: relative;
+    top: 0;
+    left: 58.33333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003232}}
+  .desk-pull7 {
+    position: relative;
+    top: 0;
+    left: -58.33333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+  .desk-span8 {
+    width: 66.66667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+  .desk-offset8 {
+    margin-left: 66.66667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003225}}
+  .desk-push8 {
+    position: relative;
+    top: 0;
+    left: 66.66667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003232}}
+  .desk-pull8 {
+    position: relative;
+    top: 0;
+    left: -66.66667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+  .desk-span9 {
+    width: 75%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+  .desk-offset9 {
+    margin-left: 75%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003225}}
+  .desk-push9 {
+    position: relative;
+    top: 0;
+    left: 75%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003232}}
+  .desk-pull9 {
+    position: relative;
+    top: 0;
+    left: -75%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+  .desk-span10 {
+    width: 83.33333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+  .desk-offset10 {
+    margin-left: 83.33333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003225}}
+  .desk-push10 {
+    position: relative;
+    top: 0;
+    left: 83.33333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003232}}
+  .desk-pull10 {
+    position: relative;
+    top: 0;
+    left: -83.33333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+  .desk-span11 {
+    width: 91.66667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+  .desk-offset11 {
+    margin-left: 91.66667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003225}}
+  .desk-push11 {
+    position: relative;
+    top: 0;
+    left: 91.66667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003232}}
+  .desk-pull11 {
+    position: relative;
+    top: 0;
+    left: -91.66667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+  .desk-span12 {
+    width: 100%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+  .desk-offset12 {
+    margin-left: 100%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003225}}
+  .desk-push12 {
+    position: relative;
+    top: 0;
+    left: 100%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003232}}
+  .desk-pull12 {
+    position: relative;
+    top: 0;
+    left: -100%;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_index\.scss}line{font-family:\0000311}}
+.pull-left {
+  float: left;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_index\.scss}line{font-family:\0000315}}
+.push-right {
+  float: right;
+}
+
+/*
  *  Font Awesome 3.0.2
  *  the iconic font designed for use with Twitter Bootstrap
  *  -------------------------------------------------------
@@ -19,4 +2011,1620 @@
  *  Email: dave@davegandy.com
  *  Twitter: http://twitter.com/fortaweso_me
  *  Work: Lead Product Designer @ http://kyruus.com
- */@font-face{font-family:'FontAwesome';src:url("../font/fontawesome-webfont.eot?v=3.0.1");src:url("../font/fontawesome-webfont.eot?#iefix&v=3.0.1") format("embedded-opentype"),url("../font/fontawesome-webfont.woff?v=3.0.1") format("woff"),url("../font/fontawesome-webfont.ttf?v=3.0.1") format("truetype");font-weight:normal;font-style:normal}[class^="icon-"],[class*=" icon-"]{font-family:FontAwesome;font-weight:normal;font-style:normal;text-decoration:inherit;-webkit-font-smoothing:antialiased;display:inline;width:auto;height:auto;line-height:normal;vertical-align:baseline;background-image:none;background-position:0% 0%;background-repeat:repeat;margin-top:0}.icon-white,.nav-pills>.active>a>[class^="icon-"],.nav-pills>.active>a>[class*=" icon-"],.nav-list>.active>a>[class^="icon-"],.nav-list>.active>a>[class*=" icon-"],.navbar-inverse .nav>.active>a>[class^="icon-"],.navbar-inverse .nav>.active>a>[class*=" icon-"],.dropdown-menu>li>a:hover>[class^="icon-"],.dropdown-menu>li>a:hover>[class*=" icon-"],.dropdown-menu>.active>a>[class^="icon-"],.dropdown-menu>.active>a>[class*=" icon-"],.dropdown-submenu:hover>a>[class^="icon-"],.dropdown-submenu:hover>a>[class*=" icon-"]{background-image:none}[class^="icon-"]:before,[class*=" icon-"]:before{text-decoration:inherit;display:inline-block;speak:none}a [class^="icon-"],a [class*=" icon-"]{display:inline-block}.icon-large:before{vertical-align:-10%;font-size:1.3333333333333333em}.btn [class^="icon-"],.btn [class*=" icon-"],.nav [class^="icon-"],.nav [class*=" icon-"]{display:inline}.btn [class^="icon-"].icon-large,.btn [class*=" icon-"].icon-large,.nav [class^="icon-"].icon-large,.nav [class*=" icon-"].icon-large{line-height:.9em}.btn [class^="icon-"].icon-spin,.btn [class*=" icon-"].icon-spin,.nav [class^="icon-"].icon-spin,.nav [class*=" icon-"].icon-spin{display:inline-block}.nav-tabs [class^="icon-"],.nav-tabs [class^="icon-"].icon-large,.nav-tabs [class*=" icon-"],.nav-tabs [class*=" icon-"].icon-large,.nav-pills [class^="icon-"],.nav-pills [class^="icon-"].icon-large,.nav-pills [class*=" icon-"],.nav-pills [class*=" icon-"].icon-large{line-height:.9em}li [class^="icon-"],li [class*=" icon-"],.nav li [class^="icon-"],.nav li [class*=" icon-"]{display:inline-block;width:1.25em;text-align:center}li [class^="icon-"].icon-large,li [class*=" icon-"].icon-large,.nav li [class^="icon-"].icon-large,.nav li [class*=" icon-"].icon-large{width:1.5625em}ul.icons{list-style-type:none;text-indent:-.75em}ul.icons li [class^="icon-"],ul.icons li [class*=" icon-"]{width:.75em}.icon-muted{color:#eee}.icon-border{border:solid 1px #eee;padding:.2em .25em .15em;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px}.icon-2x{font-size:2em}.icon-2x.icon-border{border-width:2px;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px}.icon-3x{font-size:3em}.icon-3x.icon-border{border-width:3px;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px}.icon-4x{font-size:4em}.icon-4x.icon-border{border-width:4px;-webkit-border-radius:6px;-moz-border-radius:6px;border-radius:6px}.pull-right{float:right}.pull-left{float:left}[class^="icon-"].pull-left,[class*=" icon-"].pull-left{margin-right:.3em}[class^="icon-"].pull-right,[class*=" icon-"].pull-right{margin-left:.3em}.btn [class^="icon-"].pull-left.icon-2x,.btn [class^="icon-"].pull-right.icon-2x,.btn [class*=" icon-"].pull-left.icon-2x,.btn [class*=" icon-"].pull-right.icon-2x{margin-top:.18em}.btn [class^="icon-"].icon-spin.icon-large,.btn [class*=" icon-"].icon-spin.icon-large{line-height:.8em}.btn.btn-small [class^="icon-"].pull-left.icon-2x,.btn.btn-small [class^="icon-"].pull-right.icon-2x,.btn.btn-small [class*=" icon-"].pull-left.icon-2x,.btn.btn-small [class*=" icon-"].pull-right.icon-2x{margin-top:.25em}.btn.btn-large [class^="icon-"],.btn.btn-large [class*=" icon-"]{margin-top:0}.btn.btn-large [class^="icon-"].pull-left.icon-2x,.btn.btn-large [class^="icon-"].pull-right.icon-2x,.btn.btn-large [class*=" icon-"].pull-left.icon-2x,.btn.btn-large [class*=" icon-"].pull-right.icon-2x{margin-top:.05em}.btn.btn-large [class^="icon-"].pull-left.icon-2x,.btn.btn-large [class*=" icon-"].pull-left.icon-2x{margin-right:.2em}.btn.btn-large [class^="icon-"].pull-right.icon-2x,.btn.btn-large [class*=" icon-"].pull-right.icon-2x{margin-left:.2em}.icon-spin{display:inline-block;-moz-animation:spin 2s infinite linear;-o-animation:spin 2s infinite linear;-webkit-animation:spin 2s infinite linear;animation:spin 2s infinite linear}@-moz-keyframes spin{0%{-moz-transform:rotate(0deg)}100%{-moz-transform:rotate(359deg)}}@-webkit-keyframes spin{0%{-webkit-transform:rotate(0deg)}100%{-webkit-transform:rotate(359deg)}}@-o-keyframes spin{0%{-o-transform:rotate(0deg)}100%{-o-transform:rotate(359deg)}}@-ms-keyframes spin{0%{-ms-transform:rotate(0deg)}100%{-ms-transform:rotate(359deg)}}@keyframes spin{0%{transform:rotate(0deg)}100%{transform:rotate(359deg)}}@-moz-document url-prefix(){.icon-spin{height:.9em}.btn .icon-spin{height:auto}.icon-spin.icon-large{height:1.25em}.btn .icon-spin.icon-large{height:.75em}}.icon-glass:before{content:"\f000"}.icon-music:before{content:"\f001"}.icon-search:before{content:"\f002"}.icon-envelope:before{content:"\f003"}.icon-heart:before{content:"\f004"}.icon-star:before{content:"\f005"}.icon-star-empty:before{content:"\f006"}.icon-user:before{content:"\f007"}.icon-film:before{content:"\f008"}.icon-th-large:before{content:"\f009"}.icon-th:before{content:"\f00a"}.icon-th-list:before{content:"\f00b"}.icon-ok:before{content:"\f00c"}.icon-remove:before{content:"\f00d"}.icon-zoom-in:before{content:"\f00e"}.icon-zoom-out:before{content:"\f010"}.icon-off:before{content:"\f011"}.icon-signal:before{content:"\f012"}.icon-cog:before{content:"\f013"}.icon-trash:before{content:"\f014"}.icon-home:before{content:"\f015"}.icon-file:before{content:"\f016"}.icon-time:before{content:"\f017"}.icon-road:before{content:"\f018"}.icon-download-alt:before{content:"\f019"}.icon-download:before{content:"\f01a"}.icon-upload:before{content:"\f01b"}.icon-inbox:before{content:"\f01c"}.icon-play-circle:before{content:"\f01d"}.icon-repeat:before{content:"\f01e"}.icon-refresh:before{content:"\f021"}.icon-list-alt:before{content:"\f022"}.icon-lock:before{content:"\f023"}.icon-flag:before{content:"\f024"}.icon-headphones:before{content:"\f025"}.icon-volume-off:before{content:"\f026"}.icon-volume-down:before{content:"\f027"}.icon-volume-up:before{content:"\f028"}.icon-qrcode:before{content:"\f029"}.icon-barcode:before{content:"\f02a"}.icon-tag:before{content:"\f02b"}.icon-tags:before{content:"\f02c"}.icon-book:before{content:"\f02d"}.icon-bookmark:before{content:"\f02e"}.icon-print:before{content:"\f02f"}.icon-camera:before{content:"\f030"}.icon-font:before{content:"\f031"}.icon-bold:before{content:"\f032"}.icon-italic:before{content:"\f033"}.icon-text-height:before{content:"\f034"}.icon-text-width:before{content:"\f035"}.icon-align-left:before{content:"\f036"}.icon-align-center:before{content:"\f037"}.icon-align-right:before{content:"\f038"}.icon-align-justify:before{content:"\f039"}.icon-list:before{content:"\f03a"}.icon-indent-left:before{content:"\f03b"}.icon-indent-right:before{content:"\f03c"}.icon-facetime-video:before{content:"\f03d"}.icon-picture:before{content:"\f03e"}.icon-pencil:before{content:"\f040"}.icon-map-marker:before{content:"\f041"}.icon-adjust:before{content:"\f042"}.icon-tint:before{content:"\f043"}.icon-edit:before{content:"\f044"}.icon-share:before{content:"\f045"}.icon-check:before{content:"\f046"}.icon-move:before{content:"\f047"}.icon-step-backward:before{content:"\f048"}.icon-fast-backward:before{content:"\f049"}.icon-backward:before{content:"\f04a"}.icon-play:before{content:"\f04b"}.icon-pause:before{content:"\f04c"}.icon-stop:before{content:"\f04d"}.icon-forward:before{content:"\f04e"}.icon-fast-forward:before{content:"\f050"}.icon-step-forward:before{content:"\f051"}.icon-eject:before{content:"\f052"}.icon-chevron-left:before{content:"\f053"}.icon-chevron-right:before{content:"\f054"}.icon-plus-sign:before{content:"\f055"}.icon-minus-sign:before{content:"\f056"}.icon-remove-sign:before{content:"\f057"}.icon-ok-sign:before{content:"\f058"}.icon-question-sign:before{content:"\f059"}.icon-info-sign:before{content:"\f05a"}.icon-screenshot:before{content:"\f05b"}.icon-remove-circle:before{content:"\f05c"}.icon-ok-circle:before{content:"\f05d"}.icon-ban-circle:before{content:"\f05e"}.icon-arrow-left:before{content:"\f060"}.icon-arrow-right:before{content:"\f061"}.icon-arrow-up:before{content:"\f062"}.icon-arrow-down:before{content:"\f063"}.icon-share-alt:before{content:"\f064"}.icon-resize-full:before{content:"\f065"}.icon-resize-small:before{content:"\f066"}.icon-plus:before{content:"\f067"}.icon-minus:before{content:"\f068"}.icon-asterisk:before{content:"\f069"}.icon-exclamation-sign:before{content:"\f06a"}.icon-gift:before{content:"\f06b"}.icon-leaf:before{content:"\f06c"}.icon-fire:before{content:"\f06d"}.icon-eye-open:before{content:"\f06e"}.icon-eye-close:before{content:"\f070"}.icon-warning-sign:before{content:"\f071"}.icon-plane:before{content:"\f072"}.icon-calendar:before{content:"\f073"}.icon-random:before{content:"\f074"}.icon-comment:before{content:"\f075"}.icon-magnet:before{content:"\f076"}.icon-chevron-up:before{content:"\f077"}.icon-chevron-down:before{content:"\f078"}.icon-retweet:before{content:"\f079"}.icon-shopping-cart:before{content:"\f07a"}.icon-folder-close:before{content:"\f07b"}.icon-folder-open:before{content:"\f07c"}.icon-resize-vertical:before{content:"\f07d"}.icon-resize-horizontal:before{content:"\f07e"}.icon-bar-chart:before{content:"\f080"}.icon-twitter-sign:before{content:"\f081"}.icon-facebook-sign:before{content:"\f082"}.icon-camera-retro:before{content:"\f083"}.icon-key:before{content:"\f084"}.icon-cogs:before{content:"\f085"}.icon-comments:before{content:"\f086"}.icon-thumbs-up:before{content:"\f087"}.icon-thumbs-down:before{content:"\f088"}.icon-star-half:before{content:"\f089"}.icon-heart-empty:before{content:"\f08a"}.icon-signout:before{content:"\f08b"}.icon-linkedin-sign:before{content:"\f08c"}.icon-pushpin:before{content:"\f08d"}.icon-external-link:before{content:"\f08e"}.icon-signin:before{content:"\f090"}.icon-trophy:before{content:"\f091"}.icon-github-sign:before{content:"\f092"}.icon-upload-alt:before{content:"\f093"}.icon-lemon:before{content:"\f094"}.icon-phone:before{content:"\f095"}.icon-check-empty:before{content:"\f096"}.icon-bookmark-empty:before{content:"\f097"}.icon-phone-sign:before{content:"\f098"}.icon-twitter:before{content:"\f099"}.icon-facebook:before{content:"\f09a"}.icon-github:before{content:"\f09b"}.icon-unlock:before{content:"\f09c"}.icon-credit-card:before{content:"\f09d"}.icon-rss:before{content:"\f09e"}.icon-hdd:before{content:"\f0a0"}.icon-bullhorn:before{content:"\f0a1"}.icon-bell:before{content:"\f0a2"}.icon-certificate:before{content:"\f0a3"}.icon-hand-right:before{content:"\f0a4"}.icon-hand-left:before{content:"\f0a5"}.icon-hand-up:before{content:"\f0a6"}.icon-hand-down:before{content:"\f0a7"}.icon-circle-arrow-left:before{content:"\f0a8"}.icon-circle-arrow-right:before{content:"\f0a9"}.icon-circle-arrow-up:before{content:"\f0aa"}.icon-circle-arrow-down:before{content:"\f0ab"}.icon-globe:before{content:"\f0ac"}.icon-wrench:before{content:"\f0ad"}.icon-tasks:before{content:"\f0ae"}.icon-filter:before{content:"\f0b0"}.icon-briefcase:before{content:"\f0b1"}.icon-fullscreen:before{content:"\f0b2"}.icon-group:before{content:"\f0c0"}.icon-link:before{content:"\f0c1"}.icon-cloud:before{content:"\f0c2"}.icon-beaker:before{content:"\f0c3"}.icon-cut:before{content:"\f0c4"}.icon-copy:before{content:"\f0c5"}.icon-paper-clip:before{content:"\f0c6"}.icon-save:before{content:"\f0c7"}.icon-sign-blank:before{content:"\f0c8"}.icon-reorder:before{content:"\f0c9"}.icon-list-ul:before{content:"\f0ca"}.icon-list-ol:before{content:"\f0cb"}.icon-strikethrough:before{content:"\f0cc"}.icon-underline:before{content:"\f0cd"}.icon-table:before{content:"\f0ce"}.icon-magic:before{content:"\f0d0"}.icon-truck:before{content:"\f0d1"}.icon-pinterest:before{content:"\f0d2"}.icon-pinterest-sign:before{content:"\f0d3"}.icon-google-plus-sign:before{content:"\f0d4"}.icon-google-plus:before{content:"\f0d5"}.icon-money:before{content:"\f0d6"}.icon-caret-down:before{content:"\f0d7"}.icon-caret-up:before{content:"\f0d8"}.icon-caret-left:before{content:"\f0d9"}.icon-caret-right:before{content:"\f0da"}.icon-columns:before{content:"\f0db"}.icon-sort:before{content:"\f0dc"}.icon-sort-down:before{content:"\f0dd"}.icon-sort-up:before{content:"\f0de"}.icon-envelope-alt:before{content:"\f0e0"}.icon-linkedin:before{content:"\f0e1"}.icon-undo:before{content:"\f0e2"}.icon-legal:before{content:"\f0e3"}.icon-dashboard:before{content:"\f0e4"}.icon-comment-alt:before{content:"\f0e5"}.icon-comments-alt:before{content:"\f0e6"}.icon-bolt:before{content:"\f0e7"}.icon-sitemap:before{content:"\f0e8"}.icon-umbrella:before{content:"\f0e9"}.icon-paste:before{content:"\f0ea"}.icon-lightbulb:before{content:"\f0eb"}.icon-exchange:before{content:"\f0ec"}.icon-cloud-download:before{content:"\f0ed"}.icon-cloud-upload:before{content:"\f0ee"}.icon-user-md:before{content:"\f0f0"}.icon-stethoscope:before{content:"\f0f1"}.icon-suitcase:before{content:"\f0f2"}.icon-bell-alt:before{content:"\f0f3"}.icon-coffee:before{content:"\f0f4"}.icon-food:before{content:"\f0f5"}.icon-file-alt:before{content:"\f0f6"}.icon-building:before{content:"\f0f7"}.icon-hospital:before{content:"\f0f8"}.icon-ambulance:before{content:"\f0f9"}.icon-medkit:before{content:"\f0fa"}.icon-fighter-jet:before{content:"\f0fb"}.icon-beer:before{content:"\f0fc"}.icon-h-sign:before{content:"\f0fd"}.icon-plus-sign-alt:before{content:"\f0fe"}.icon-double-angle-left:before{content:"\f100"}.icon-double-angle-right:before{content:"\f101"}.icon-double-angle-up:before{content:"\f102"}.icon-double-angle-down:before{content:"\f103"}.icon-angle-left:before{content:"\f104"}.icon-angle-right:before{content:"\f105"}.icon-angle-up:before{content:"\f106"}.icon-angle-down:before{content:"\f107"}.icon-desktop:before{content:"\f108"}.icon-laptop:before{content:"\f109"}.icon-tablet:before{content:"\f10a"}.icon-mobile-phone:before{content:"\f10b"}.icon-circle-blank:before{content:"\f10c"}.icon-quote-left:before{content:"\f10d"}.icon-quote-right:before{content:"\f10e"}.icon-spinner:before{content:"\f110"}.icon-circle:before{content:"\f111"}.icon-reply:before{content:"\f112"}.icon-github-alt:before{content:"\f113"}.icon-folder-close-alt:before{content:"\f114"}.icon-folder-open-alt:before{content:"\f115"}.show-grid [class*="span"]{background:rgba(136,136,136,0.5);text-align:center}.show-grid [class*="span"]:hover{background:rgba(204,204,204,0.5)}
+ */
+@font-face {
+  font-family: 'FontAwesome';
+  src: url("../font/fontawesome-webfont.eot?v=3.0.1");
+  src: url("../font/fontawesome-webfont.eot?#iefix&v=3.0.1") format("embedded-opentype"), url("../font/fontawesome-webfont.woff?v=3.0.1") format("woff"), url("../font/fontawesome-webfont.ttf?v=3.0.1") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*  Font Awesome styles
+    ------------------------------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\0000343}}
+[class^="icon-"],
+[class*=" icon-"] {
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: inherit;
+  -webkit-font-smoothing: antialiased;
+  /* sprites.less reset */
+  display: inline;
+  width: auto;
+  height: auto;
+  line-height: normal;
+  vertical-align: baseline;
+  background-image: none;
+  background-position: 0% 0%;
+  background-repeat: repeat;
+  margin-top: 0;
+}
+
+/* more sprites.less reset */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\0000375}}
+.icon-white,
+.nav-pills > .active > a > [class^="icon-"],
+.nav-pills > .active > a > [class*=" icon-"],
+.nav-list > .active > a > [class^="icon-"],
+.nav-list > .active > a > [class*=" icon-"],
+.navbar-inverse .nav > .active > a > [class^="icon-"],
+.navbar-inverse .nav > .active > a > [class*=" icon-"],
+.dropdown-menu > li > a:hover > [class^="icon-"],
+.dropdown-menu > li > a:hover > [class*=" icon-"],
+.dropdown-menu > .active > a > [class^="icon-"],
+.dropdown-menu > .active > a > [class*=" icon-"],
+.dropdown-submenu:hover > a > [class^="icon-"],
+.dropdown-submenu:hover > a > [class*=" icon-"] {
+  background-image: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\0000380}}
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  text-decoration: inherit;
+  display: inline-block;
+  speak: none;
+}
+
+/* makes sure icons active on rollover in links */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\0000389}}
+a [class^="icon-"],
+a [class*=" icon-"] {
+  display: inline-block;
+}
+
+/* makes the font 33% larger relative to the icon container */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\0000395}}
+.icon-large:before {
+  vertical-align: -10%;
+  font-size: 1.3333333333333333em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003102}}
+.btn [class^="icon-"],
+.btn [class*=" icon-"], .nav [class^="icon-"],
+.nav [class*=" icon-"] {
+  display: inline;
+  /* keeps button heights with and without icons the same */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003105}}
+.btn [class^="icon-"].icon-large,
+.btn [class*=" icon-"].icon-large, .nav [class^="icon-"].icon-large,
+.nav [class*=" icon-"].icon-large {
+  line-height: .9em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003106}}
+.btn [class^="icon-"].icon-spin,
+.btn [class*=" icon-"].icon-spin, .nav [class^="icon-"].icon-spin,
+.nav [class*=" icon-"].icon-spin {
+  display: inline-block;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003112}}
+.nav-tabs [class^="icon-"],
+.nav-tabs [class*=" icon-"], .nav-pills [class^="icon-"],
+.nav-pills [class*=" icon-"] {
+  /* keeps button heights with and without icons the same */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003114}}
+.nav-tabs [class^="icon-"], .nav-tabs [class^="icon-"].icon-large,
+.nav-tabs [class*=" icon-"],
+.nav-tabs [class*=" icon-"].icon-large, .nav-pills [class^="icon-"], .nav-pills [class^="icon-"].icon-large,
+.nav-pills [class*=" icon-"],
+.nav-pills [class*=" icon-"].icon-large {
+  line-height: .9em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003120}}
+li [class^="icon-"],
+li [class*=" icon-"], .nav li [class^="icon-"],
+.nav li [class*=" icon-"] {
+  display: inline-block;
+  width: 1.25em;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003124}}
+li [class^="icon-"].icon-large,
+li [class*=" icon-"].icon-large, .nav li [class^="icon-"].icon-large,
+.nav li [class*=" icon-"].icon-large {
+  /* increased font size for icon-large */
+  width: 1.5625em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003131}}
+ul.icons {
+  list-style-type: none;
+  text-indent: -.75em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003137}}
+ul.icons li [class^="icon-"],
+ul.icons li [class*=" icon-"] {
+  width: .75em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003143}}
+.icon-muted {
+  color: #eeeeee;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003150}}
+.icon-border {
+  border: solid 1px #eeeeee;
+  padding: .2em .25em .15em;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003159}}
+.icon-2x {
+  font-size: 2em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003161}}
+.icon-2x.icon-border {
+  border-width: 2px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003166}}
+.icon-3x {
+  font-size: 3em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003168}}
+.icon-3x.icon-border {
+  border-width: 3px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003173}}
+.icon-4x {
+  font-size: 4em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003175}}
+.icon-4x.icon-border {
+  border-width: 4px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003185}}
+.pull-right {
+  float: right;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003186}}
+.pull-left {
+  float: left;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003190}}
+[class^="icon-"].pull-left,
+[class*=" icon-"].pull-left {
+  margin-right: .3em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003193}}
+[class^="icon-"].pull-right,
+[class*=" icon-"].pull-right {
+  margin-left: .3em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003202}}
+.btn [class^="icon-"].pull-left.icon-2x, .btn [class^="icon-"].pull-right.icon-2x,
+.btn [class*=" icon-"].pull-left.icon-2x,
+.btn [class*=" icon-"].pull-right.icon-2x {
+  margin-top: .18em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003204}}
+.btn [class^="icon-"].icon-spin.icon-large,
+.btn [class*=" icon-"].icon-spin.icon-large {
+  line-height: .8em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003212}}
+.btn.btn-small [class^="icon-"].pull-left.icon-2x, .btn.btn-small [class^="icon-"].pull-right.icon-2x,
+.btn.btn-small [class*=" icon-"].pull-left.icon-2x,
+.btn.btn-small [class*=" icon-"].pull-right.icon-2x {
+  margin-top: .25em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003219}}
+.btn.btn-large [class^="icon-"],
+.btn.btn-large [class*=" icon-"] {
+  margin-top: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003222}}
+.btn.btn-large [class^="icon-"].pull-left.icon-2x, .btn.btn-large [class^="icon-"].pull-right.icon-2x,
+.btn.btn-large [class*=" icon-"].pull-left.icon-2x,
+.btn.btn-large [class*=" icon-"].pull-right.icon-2x {
+  margin-top: .05em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003224}}
+.btn.btn-large [class^="icon-"].pull-left.icon-2x,
+.btn.btn-large [class*=" icon-"].pull-left.icon-2x {
+  margin-right: .2em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003225}}
+.btn.btn-large [class^="icon-"].pull-right.icon-2x,
+.btn.btn-large [class*=" icon-"].pull-right.icon-2x {
+  margin-left: .2em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003230}}
+.icon-spin {
+  display: inline-block;
+  -moz-animation: spin 2s infinite linear;
+  -o-animation: spin 2s infinite linear;
+  -webkit-animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
+}
+
+@-moz-keyframes spin {
+  0% {
+    -moz-transform: rotate(0deg);
+  }
+
+  100% {
+    -moz-transform: rotate(359deg);
+  }
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(359deg);
+  }
+}
+
+@-o-keyframes spin {
+  0% {
+    -o-transform: rotate(0deg);
+  }
+
+  100% {
+    -o-transform: rotate(359deg);
+  }
+}
+
+@-ms-keyframes spin {
+  0% {
+    -ms-transform: rotate(0deg);
+  }
+
+  100% {
+    -ms-transform: rotate(359deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(359deg);
+  }
+}
+
+@-moz-document url-prefix() {
+  .icon-spin {
+    height: .9em;
+  }
+
+  .btn .icon-spin {
+    height: auto;
+  }
+
+  .icon-spin.icon-large {
+    height: 1.25em;
+  }
+
+  .btn .icon-spin.icon-large {
+    height: .75em;
+  }
+}
+
+/*  Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
+    readers do not read off random characters that represent icons */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003268}}
+.icon-glass:before {
+  content: "\f000";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003269}}
+.icon-music:before {
+  content: "\f001";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003270}}
+.icon-search:before {
+  content: "\f002";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003271}}
+.icon-envelope:before {
+  content: "\f003";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003272}}
+.icon-heart:before {
+  content: "\f004";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003273}}
+.icon-star:before {
+  content: "\f005";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003274}}
+.icon-star-empty:before {
+  content: "\f006";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003275}}
+.icon-user:before {
+  content: "\f007";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003276}}
+.icon-film:before {
+  content: "\f008";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003277}}
+.icon-th-large:before {
+  content: "\f009";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003278}}
+.icon-th:before {
+  content: "\f00a";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003279}}
+.icon-th-list:before {
+  content: "\f00b";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003280}}
+.icon-ok:before {
+  content: "\f00c";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003281}}
+.icon-remove:before {
+  content: "\f00d";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003282}}
+.icon-zoom-in:before {
+  content: "\f00e";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003284}}
+.icon-zoom-out:before {
+  content: "\f010";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003285}}
+.icon-off:before {
+  content: "\f011";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003286}}
+.icon-signal:before {
+  content: "\f012";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003287}}
+.icon-cog:before {
+  content: "\f013";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003288}}
+.icon-trash:before {
+  content: "\f014";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003289}}
+.icon-home:before {
+  content: "\f015";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003290}}
+.icon-file:before {
+  content: "\f016";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003291}}
+.icon-time:before {
+  content: "\f017";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003292}}
+.icon-road:before {
+  content: "\f018";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003293}}
+.icon-download-alt:before {
+  content: "\f019";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003294}}
+.icon-download:before {
+  content: "\f01a";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003295}}
+.icon-upload:before {
+  content: "\f01b";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003296}}
+.icon-inbox:before {
+  content: "\f01c";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003297}}
+.icon-play-circle:before {
+  content: "\f01d";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003298}}
+.icon-repeat:before {
+  content: "\f01e";
+}
+
+/* \f020 doesn't work in Safari. all shifted one down */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003301}}
+.icon-refresh:before {
+  content: "\f021";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003302}}
+.icon-list-alt:before {
+  content: "\f022";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003303}}
+.icon-lock:before {
+  content: "\f023";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003304}}
+.icon-flag:before {
+  content: "\f024";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003305}}
+.icon-headphones:before {
+  content: "\f025";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003306}}
+.icon-volume-off:before {
+  content: "\f026";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003307}}
+.icon-volume-down:before {
+  content: "\f027";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003308}}
+.icon-volume-up:before {
+  content: "\f028";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003309}}
+.icon-qrcode:before {
+  content: "\f029";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003310}}
+.icon-barcode:before {
+  content: "\f02a";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003311}}
+.icon-tag:before {
+  content: "\f02b";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003312}}
+.icon-tags:before {
+  content: "\f02c";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003313}}
+.icon-book:before {
+  content: "\f02d";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003314}}
+.icon-bookmark:before {
+  content: "\f02e";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003315}}
+.icon-print:before {
+  content: "\f02f";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003317}}
+.icon-camera:before {
+  content: "\f030";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003318}}
+.icon-font:before {
+  content: "\f031";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003319}}
+.icon-bold:before {
+  content: "\f032";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003320}}
+.icon-italic:before {
+  content: "\f033";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003321}}
+.icon-text-height:before {
+  content: "\f034";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003322}}
+.icon-text-width:before {
+  content: "\f035";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003323}}
+.icon-align-left:before {
+  content: "\f036";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003324}}
+.icon-align-center:before {
+  content: "\f037";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003325}}
+.icon-align-right:before {
+  content: "\f038";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003326}}
+.icon-align-justify:before {
+  content: "\f039";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003327}}
+.icon-list:before {
+  content: "\f03a";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003328}}
+.icon-indent-left:before {
+  content: "\f03b";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003329}}
+.icon-indent-right:before {
+  content: "\f03c";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003330}}
+.icon-facetime-video:before {
+  content: "\f03d";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003331}}
+.icon-picture:before {
+  content: "\f03e";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003333}}
+.icon-pencil:before {
+  content: "\f040";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003334}}
+.icon-map-marker:before {
+  content: "\f041";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003335}}
+.icon-adjust:before {
+  content: "\f042";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003336}}
+.icon-tint:before {
+  content: "\f043";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003337}}
+.icon-edit:before {
+  content: "\f044";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003338}}
+.icon-share:before {
+  content: "\f045";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003339}}
+.icon-check:before {
+  content: "\f046";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003340}}
+.icon-move:before {
+  content: "\f047";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003341}}
+.icon-step-backward:before {
+  content: "\f048";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003342}}
+.icon-fast-backward:before {
+  content: "\f049";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003343}}
+.icon-backward:before {
+  content: "\f04a";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003344}}
+.icon-play:before {
+  content: "\f04b";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003345}}
+.icon-pause:before {
+  content: "\f04c";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003346}}
+.icon-stop:before {
+  content: "\f04d";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003347}}
+.icon-forward:before {
+  content: "\f04e";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003349}}
+.icon-fast-forward:before {
+  content: "\f050";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003350}}
+.icon-step-forward:before {
+  content: "\f051";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003351}}
+.icon-eject:before {
+  content: "\f052";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003352}}
+.icon-chevron-left:before {
+  content: "\f053";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003353}}
+.icon-chevron-right:before {
+  content: "\f054";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003354}}
+.icon-plus-sign:before {
+  content: "\f055";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003355}}
+.icon-minus-sign:before {
+  content: "\f056";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003356}}
+.icon-remove-sign:before {
+  content: "\f057";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003357}}
+.icon-ok-sign:before {
+  content: "\f058";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003358}}
+.icon-question-sign:before {
+  content: "\f059";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003359}}
+.icon-info-sign:before {
+  content: "\f05a";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003360}}
+.icon-screenshot:before {
+  content: "\f05b";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003361}}
+.icon-remove-circle:before {
+  content: "\f05c";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003362}}
+.icon-ok-circle:before {
+  content: "\f05d";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003363}}
+.icon-ban-circle:before {
+  content: "\f05e";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003365}}
+.icon-arrow-left:before {
+  content: "\f060";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003366}}
+.icon-arrow-right:before {
+  content: "\f061";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003367}}
+.icon-arrow-up:before {
+  content: "\f062";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003368}}
+.icon-arrow-down:before {
+  content: "\f063";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003369}}
+.icon-share-alt:before {
+  content: "\f064";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003370}}
+.icon-resize-full:before {
+  content: "\f065";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003371}}
+.icon-resize-small:before {
+  content: "\f066";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003372}}
+.icon-plus:before {
+  content: "\f067";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003373}}
+.icon-minus:before {
+  content: "\f068";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003374}}
+.icon-asterisk:before {
+  content: "\f069";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003375}}
+.icon-exclamation-sign:before {
+  content: "\f06a";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003376}}
+.icon-gift:before {
+  content: "\f06b";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003377}}
+.icon-leaf:before {
+  content: "\f06c";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003378}}
+.icon-fire:before {
+  content: "\f06d";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003379}}
+.icon-eye-open:before {
+  content: "\f06e";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003381}}
+.icon-eye-close:before {
+  content: "\f070";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003382}}
+.icon-warning-sign:before {
+  content: "\f071";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003383}}
+.icon-plane:before {
+  content: "\f072";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003384}}
+.icon-calendar:before {
+  content: "\f073";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003385}}
+.icon-random:before {
+  content: "\f074";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003386}}
+.icon-comment:before {
+  content: "\f075";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003387}}
+.icon-magnet:before {
+  content: "\f076";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003388}}
+.icon-chevron-up:before {
+  content: "\f077";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003389}}
+.icon-chevron-down:before {
+  content: "\f078";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003390}}
+.icon-retweet:before {
+  content: "\f079";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003391}}
+.icon-shopping-cart:before {
+  content: "\f07a";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003392}}
+.icon-folder-close:before {
+  content: "\f07b";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003393}}
+.icon-folder-open:before {
+  content: "\f07c";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003394}}
+.icon-resize-vertical:before {
+  content: "\f07d";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003395}}
+.icon-resize-horizontal:before {
+  content: "\f07e";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003397}}
+.icon-bar-chart:before {
+  content: "\f080";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003398}}
+.icon-twitter-sign:before {
+  content: "\f081";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003399}}
+.icon-facebook-sign:before {
+  content: "\f082";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003400}}
+.icon-camera-retro:before {
+  content: "\f083";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003401}}
+.icon-key:before {
+  content: "\f084";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003402}}
+.icon-cogs:before {
+  content: "\f085";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003403}}
+.icon-comments:before {
+  content: "\f086";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003404}}
+.icon-thumbs-up:before {
+  content: "\f087";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003405}}
+.icon-thumbs-down:before {
+  content: "\f088";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003406}}
+.icon-star-half:before {
+  content: "\f089";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003407}}
+.icon-heart-empty:before {
+  content: "\f08a";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003408}}
+.icon-signout:before {
+  content: "\f08b";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003409}}
+.icon-linkedin-sign:before {
+  content: "\f08c";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003410}}
+.icon-pushpin:before {
+  content: "\f08d";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003411}}
+.icon-external-link:before {
+  content: "\f08e";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003413}}
+.icon-signin:before {
+  content: "\f090";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003414}}
+.icon-trophy:before {
+  content: "\f091";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003415}}
+.icon-github-sign:before {
+  content: "\f092";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003416}}
+.icon-upload-alt:before {
+  content: "\f093";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003417}}
+.icon-lemon:before {
+  content: "\f094";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003418}}
+.icon-phone:before {
+  content: "\f095";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003419}}
+.icon-check-empty:before {
+  content: "\f096";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003420}}
+.icon-bookmark-empty:before {
+  content: "\f097";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003421}}
+.icon-phone-sign:before {
+  content: "\f098";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003422}}
+.icon-twitter:before {
+  content: "\f099";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003423}}
+.icon-facebook:before {
+  content: "\f09a";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003424}}
+.icon-github:before {
+  content: "\f09b";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003425}}
+.icon-unlock:before {
+  content: "\f09c";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003426}}
+.icon-credit-card:before {
+  content: "\f09d";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003427}}
+.icon-rss:before {
+  content: "\f09e";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003429}}
+.icon-hdd:before {
+  content: "\f0a0";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003430}}
+.icon-bullhorn:before {
+  content: "\f0a1";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003431}}
+.icon-bell:before {
+  content: "\f0a2";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003432}}
+.icon-certificate:before {
+  content: "\f0a3";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003433}}
+.icon-hand-right:before {
+  content: "\f0a4";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003434}}
+.icon-hand-left:before {
+  content: "\f0a5";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003435}}
+.icon-hand-up:before {
+  content: "\f0a6";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003436}}
+.icon-hand-down:before {
+  content: "\f0a7";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003437}}
+.icon-circle-arrow-left:before {
+  content: "\f0a8";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003438}}
+.icon-circle-arrow-right:before {
+  content: "\f0a9";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003439}}
+.icon-circle-arrow-up:before {
+  content: "\f0aa";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003440}}
+.icon-circle-arrow-down:before {
+  content: "\f0ab";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003441}}
+.icon-globe:before {
+  content: "\f0ac";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003442}}
+.icon-wrench:before {
+  content: "\f0ad";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003443}}
+.icon-tasks:before {
+  content: "\f0ae";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003445}}
+.icon-filter:before {
+  content: "\f0b0";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003446}}
+.icon-briefcase:before {
+  content: "\f0b1";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003447}}
+.icon-fullscreen:before {
+  content: "\f0b2";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003449}}
+.icon-group:before {
+  content: "\f0c0";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003450}}
+.icon-link:before {
+  content: "\f0c1";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003451}}
+.icon-cloud:before {
+  content: "\f0c2";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003452}}
+.icon-beaker:before {
+  content: "\f0c3";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003453}}
+.icon-cut:before {
+  content: "\f0c4";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003454}}
+.icon-copy:before {
+  content: "\f0c5";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003455}}
+.icon-paper-clip:before {
+  content: "\f0c6";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003456}}
+.icon-save:before {
+  content: "\f0c7";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003457}}
+.icon-sign-blank:before {
+  content: "\f0c8";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003458}}
+.icon-reorder:before {
+  content: "\f0c9";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003459}}
+.icon-list-ul:before {
+  content: "\f0ca";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003460}}
+.icon-list-ol:before {
+  content: "\f0cb";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003461}}
+.icon-strikethrough:before {
+  content: "\f0cc";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003462}}
+.icon-underline:before {
+  content: "\f0cd";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003463}}
+.icon-table:before {
+  content: "\f0ce";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003465}}
+.icon-magic:before {
+  content: "\f0d0";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003466}}
+.icon-truck:before {
+  content: "\f0d1";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003467}}
+.icon-pinterest:before {
+  content: "\f0d2";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003468}}
+.icon-pinterest-sign:before {
+  content: "\f0d3";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003469}}
+.icon-google-plus-sign:before {
+  content: "\f0d4";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003470}}
+.icon-google-plus:before {
+  content: "\f0d5";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003471}}
+.icon-money:before {
+  content: "\f0d6";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003472}}
+.icon-caret-down:before {
+  content: "\f0d7";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003473}}
+.icon-caret-up:before {
+  content: "\f0d8";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003474}}
+.icon-caret-left:before {
+  content: "\f0d9";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003475}}
+.icon-caret-right:before {
+  content: "\f0da";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003476}}
+.icon-columns:before {
+  content: "\f0db";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003477}}
+.icon-sort:before {
+  content: "\f0dc";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003478}}
+.icon-sort-down:before {
+  content: "\f0dd";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003479}}
+.icon-sort-up:before {
+  content: "\f0de";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003481}}
+.icon-envelope-alt:before {
+  content: "\f0e0";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003482}}
+.icon-linkedin:before {
+  content: "\f0e1";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003483}}
+.icon-undo:before {
+  content: "\f0e2";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003484}}
+.icon-legal:before {
+  content: "\f0e3";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003485}}
+.icon-dashboard:before {
+  content: "\f0e4";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003486}}
+.icon-comment-alt:before {
+  content: "\f0e5";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003487}}
+.icon-comments-alt:before {
+  content: "\f0e6";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003488}}
+.icon-bolt:before {
+  content: "\f0e7";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003489}}
+.icon-sitemap:before {
+  content: "\f0e8";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003490}}
+.icon-umbrella:before {
+  content: "\f0e9";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003491}}
+.icon-paste:before {
+  content: "\f0ea";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003492}}
+.icon-lightbulb:before {
+  content: "\f0eb";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003493}}
+.icon-exchange:before {
+  content: "\f0ec";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003494}}
+.icon-cloud-download:before {
+  content: "\f0ed";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003495}}
+.icon-cloud-upload:before {
+  content: "\f0ee";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003497}}
+.icon-user-md:before {
+  content: "\f0f0";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003498}}
+.icon-stethoscope:before {
+  content: "\f0f1";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003499}}
+.icon-suitcase:before {
+  content: "\f0f2";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003500}}
+.icon-bell-alt:before {
+  content: "\f0f3";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003501}}
+.icon-coffee:before {
+  content: "\f0f4";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003502}}
+.icon-food:before {
+  content: "\f0f5";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003503}}
+.icon-file-alt:before {
+  content: "\f0f6";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003504}}
+.icon-building:before {
+  content: "\f0f7";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003505}}
+.icon-hospital:before {
+  content: "\f0f8";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003506}}
+.icon-ambulance:before {
+  content: "\f0f9";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003507}}
+.icon-medkit:before {
+  content: "\f0fa";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003508}}
+.icon-fighter-jet:before {
+  content: "\f0fb";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003509}}
+.icon-beer:before {
+  content: "\f0fc";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003510}}
+.icon-h-sign:before {
+  content: "\f0fd";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003511}}
+.icon-plus-sign-alt:before {
+  content: "\f0fe";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003513}}
+.icon-double-angle-left:before {
+  content: "\f100";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003514}}
+.icon-double-angle-right:before {
+  content: "\f101";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003515}}
+.icon-double-angle-up:before {
+  content: "\f102";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003516}}
+.icon-double-angle-down:before {
+  content: "\f103";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003517}}
+.icon-angle-left:before {
+  content: "\f104";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003518}}
+.icon-angle-right:before {
+  content: "\f105";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003519}}
+.icon-angle-up:before {
+  content: "\f106";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003520}}
+.icon-angle-down:before {
+  content: "\f107";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003521}}
+.icon-desktop:before {
+  content: "\f108";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003522}}
+.icon-laptop:before {
+  content: "\f109";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003523}}
+.icon-tablet:before {
+  content: "\f10a";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003524}}
+.icon-mobile-phone:before {
+  content: "\f10b";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003525}}
+.icon-circle-blank:before {
+  content: "\f10c";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003526}}
+.icon-quote-left:before {
+  content: "\f10d";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003527}}
+.icon-quote-right:before {
+  content: "\f10e";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003529}}
+.icon-spinner:before {
+  content: "\f110";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003530}}
+.icon-circle:before {
+  content: "\f111";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003531}}
+.icon-reply:before {
+  content: "\f112";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003532}}
+.icon-github-alt:before {
+  content: "\f113";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003533}}
+.icon-folder-close-alt:before {
+  content: "\f114";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/font-awesome\/_font-awesome\.scss}line{font-family:\00003534}}
+.icon-folder-open-alt:before {
+  content: "\f115";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/style\.scss}line{font-family:\0000311}}
+body {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(96%, rgba(0, 0, 0, 0)), color-stop(98%, rgba(0, 0, 0, 0.1)), color-stop(100%, rgba(0, 0, 0, 0.1)), color-stop(100%, rgba(0, 0, 0, 0)));
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 96%, rgba(0, 0, 0, 0.1) 98%, rgba(0, 0, 0, 0.1) 100%, rgba(0, 0, 0, 0));
+  background-image: -moz-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 96%, rgba(0, 0, 0, 0.1) 98%, rgba(0, 0, 0, 0.1) 100%, rgba(0, 0, 0, 0));
+  background-image: -o-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 96%, rgba(0, 0, 0, 0.1) 98%, rgba(0, 0, 0, 0.1) 100%, rgba(0, 0, 0, 0));
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 96%, rgba(0, 0, 0, 0.1) 98%, rgba(0, 0, 0, 0.1) 100%, rgba(0, 0, 0, 0));
+  -webkit-background-size: 1.5rem 1.5rem;
+  -moz-background-size: 1.5rem 1.5rem;
+  -o-background-size: 1.5rem 1.5rem;
+  background-size: 1.5rem 1.5rem;
+  background: red;
+}
+@media only screen and (min-width: 400px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/style\.scss}line{font-family:\0000311}}
+  body {
+    background: orange;
+  }
+}
+@media only screen and (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/style\.scss}line{font-family:\0000311}}
+  body {
+    background: yellow;
+  }
+}
+@media only screen and (min-width: 1280px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/style\.scss}line{font-family:\0000311}}
+  body {
+    background: green;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/style\.scss}line{font-family:\0000326}}
+.container {
+  padding: 0 40px;
+  border-left: 2px solid lightsteelblue;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/style\.scss}line{font-family:\0000338}}
+.show-grid [class*="span"] {
+  background: rgba(136, 136, 136, 0.5);
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/style\.scss}line{font-family:\0000342}}
+.show-grid [class*="span"]:hover {
+  background: rgba(204, 204, 204, 0.5);
+}
