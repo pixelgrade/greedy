@@ -37,7 +37,7 @@
   $fontSize: $fs;
 
   line-height: $lineHeight;
-  @include rem('font-size', $fontSize);
+  @include rem(font-size, $fontSize);
 }
 
 @mixin fs($fs: $fontSizeBase, $lh: $lineHeightBase, $ratio: 1) {

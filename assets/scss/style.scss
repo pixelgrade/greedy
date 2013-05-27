@@ -10,22 +10,22 @@
 
 body {
   @include verticalGrid();
-  background: red;
+  border-left: 10px solid red;
 
   @include media(from hand) {
-    background: orange;
+    border-color: orange;
   }
   @include media(from lap) {
-    background: yellow;
+    border-color: yellow;
   }
   @include media(from desk) {
-    background: green;
+    border-color: green;
   }
 }
 
 .container {
   @extend %grid;
-  padding: 0 40px;
+  @include rem(padding, 0 16px);
   border-left: 2px solid lightsteelblue;
 }
 

@@ -28,9 +28,9 @@ $responsive: true;
 }
 
 %column {
+  position: relative;
   border: 0 solid transparent;
   border-left-width: $gridGutter;
-  //padding-left: $gridGutter;
   @include background-clip(padding-box !important);
   @include background-origin(padding-box !important);
 }
@@ -151,10 +151,6 @@ $classT: (); // type
   $classP: append($classP, $p);
 }
 
-%position-relative {
-  position: relative;
-}
-
 @mixin generateClasses() {
   @for $i from 1 through length($classN) {
     $n: nth($classN, $i);
@@ -188,12 +184,6 @@ $classT: (); // type
       }
     }
 
-    @if $t == push or $t == pull {
-      %#{$n} {
-        @extend %position-relative;
-      }
-    }
-
     @if $p != true {
       .#{$n} {
         @extend %#{$n};
@@ -223,14 +213,14 @@ $classT: (); // type
 
         @if $t == push {
           %#{$bp}-#{$n} {
-            position: relative; top: 0;
+            position: relative;
             left: percentage($r);
           }
         }
 
         @if $t == pull {
           %#{$bp}-#{$n} {
-            position: relative; top: 0;
+            position: relative;
             left: -1 * percentage($r);
           }
         }
@@ -253,3 +243,39 @@ $columns: 12;
   @include newClass(pull#{$i}, $i / $columns, pull);
 }
 @include generateClasses();
+
+@mixin remux($bp1, $bp2, $fs1, $fs2, $fstep: 1px) {
+  $index1: index($bpNames, $bp1);
+  $index2: index($bpNames, $bp2);
+  @if $index1 != false {
+    $bp1: nth($bpSizes, $index1);
+  }
+  @if $index2 != false {
+    $bp2: nth($bpSizes, $index2);
+  }
+  $bprange: $bp2 - $bp1;
+  $steps: ($fs2 - $fs1) / $fstep;
+  $bstep: $bprange / $steps;
+  $bp: $bp1;
+  $fs: $fs1;
+
+  @for $i from 1 through $steps {
+    @include media($bp ($bp + $bstep)) {
+      @debug ($bp, $bp + $bstep, $fs);
+      html {
+        font-size: percentage($fs/16px);
+      }
+    }
+    $fs: $fs + $fstep;
+    $bp: $bp + $bstep;
+  }
+}
+
+@include remux(0, hand, 10px, 12px);
+@include remux(hand, lap, 12px, 16px);
+@include remux(lap, desk, 16px, 20px);
+@include media(desk) {
+  html {
+    font-size: percentage(20px/16px);
+  }
+}
