@@ -11,9 +11,9 @@ $gridGutter: 10px;
 $responsive: true;
 
 %grid {
+  width: $gridWidth;
   margin-left: auto;
   margin-right: auto;
-  width: $gridWidth;
 
   @if $responsive == true {
     @media only screen {

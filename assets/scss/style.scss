@@ -27,7 +27,6 @@ body {
 .container {
   @extend %grid;
   @include rem(padding, 0 16px);
-  border-left: 2px solid lightsteelblue;
 }
 
 .row {

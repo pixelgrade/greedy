@@ -9,10 +9,37 @@
 </head>
 <body>
     <div class="container show-grid">
-        <div class="row">
-            <div class="span12 hand-span3 lap-span2 desk-span1">Nu nu nu</div>
-            <div class="span12 hand-span3 hand-push3 hand-offset3 lap-span2 lap-push2 lap-offset2 desk-span1 desk-push1 desk-offset1">Da da da</div>
-        </div>
+        <h2>@todo</h2>
+        <h3>Grid</h3>
+        <ul>
+            <li>Reset push, pull and offset classes on different viewports</li>
+            <li>Visibility classes</li>
+            <li>Containers (with centering and stuff)</li>
+        </ul>
+        <h3>Typography</h3>
+        <ul>
+            <li>Baseline grid (read some print design guides about spacing and the way heading relate to content)</li>
+            <li>Take care at headings, hgroups, heading with subheadings, nested lists</li>
+            <li>Spacing (leader, trailer, hr, maybe other tags for spacing?? common dimensions of spacing)</li>
+            <li>Font stacks</li>
+            <li>Test alignment classes, text styling classes (emphasises paragraphs)</li>
+            <li>Lists</li>
+        </ul>
+        <h3>Misc</h3>
+        <ul>
+            <li>Easy theming and color changing</li>
+            <li>Prepare for major icon packs</li>
+        </ul>
+        <h3>Tables</h3>
+        <h3>Forms</h3>
+        <h3>Navigation patterns</h3>
+        <h3>Interaction elements</h3>
+        <ul>
+            <li>Alerts and notifications</li>
+            <li>Progress bars (swipe)</li>
+            <li>Tooltips and flyouts</li>
+            <li>Modal (magnificent modal)</li>
+        </ul>
         <h1>My Bad</h1>
         <p>Tonight's the night. And it's going to happen again and again. It has to happen. This man is a knight in shining armor. I'm not the monster he wants me to be. So I'm neither man nor beast. I'm something new entirely. With my own set of rules. I'm Dexter. Boo. Somehow, I doubt that. You have a good heart, Dexter. I'm going to tell you something that I've never told anyone before.</p>
         <h2>Born Free</h2>
