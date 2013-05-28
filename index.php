@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title></title>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab:700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="assets/css/style.css"/>
+    <link rel="stylesheet" href="assets/css/min/style.css"/>
     <script type="text/javascript" src="assets/js/vendor/respons.js"></script>
 </head>
 <body>

@@ -1,6 +1,8 @@
-$ie7-support: false;
-@import "../normalize/normalize";
+$ie7-support: true;
+// dependencies
 @import "../modular-scale/modular-scale";
+
+//modules
 @import "classes";
 @import "variables";
 @import "settings";

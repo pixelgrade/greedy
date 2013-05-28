@@ -1,6 +1,7 @@
 @import "compass";
+@import "vendor/normalize/normalize";
 @import "vendor/greedy/index";
-@import "vendor/font-awesome/font-awesome";
+//@import "vendor/font-awesome/font-awesome";
 
 
 @mixin verticalGrid($ratio: $lineHeightBase) {

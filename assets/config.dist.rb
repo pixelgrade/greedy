@@ -1,6 +1,6 @@
 # Set this to the root of your project when deployed:
 http_path = "/"
-css_dir = "css/min"
+css_dir = "css/dist"
 sass_dir = "scss"
 images_dir = "img"
 javascripts_dir = "js"
@@ -22,5 +22,5 @@ relative_assets = true
 # sass-convert -R --from scss --to sass sass scss && rm -rf sass && mv scss sass
 
 sass_options = { :debug_info => false, :sourcemap => false }
-output_style = :compressed
+output_style = :nested
 line_comments = false
