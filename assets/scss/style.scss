@@ -10,7 +10,7 @@
 }
 
 body {
-  @include verticalGrid();
+  //@include verticalGrid();
   border-left: 10px solid red;
 
   @include media(from hand) {
@@ -20,7 +20,16 @@ body {
     border-color: yellow;
   }
   @include media(from desk) {
-    border-color: green;
+    border-color: blue;
+  }
+}
+
+#page {
+  background: $grayLightest;
+
+  .l-boxed & {
+    width: $gridWidth;
+    margin: 0 auto;
   }
 }
 
@@ -33,44 +42,53 @@ body {
   @extend %row;
 }
 
-.show-grid {
+.l-main, .l-side {
+  @extend .span12;
+}
 
-  [class*="span"] {
-    background: rgba($gray, .5);
-    text-align: center;
+.l-sidebar-right {
 
-    &:hover {
-      background: rgba($grayLighter, .5);
-    }
+  .l-main {
+    @extend .lap-span8;
+  }
+
+  .l-side {
+    @extend .lap-span4;
   }
 }
 
-@debug ("--------------------------- INSIDE");
-@include media(small) {}
-@include media(hand) {}
-@include media(lap) {}
-@include media(desk) {}
-@debug ("--------------------------- UP TO");
-@include media(to small) {}
-@include media(to hand) {}
-@include media(to lap) {}
-@include media(to desk) {}
-@debug ("--------------------------- UP FROM");
-@include media(from small) {}
-@include media(from hand) {}
-@include media(from lap) {}
-@include media(from desk) {}
-@debug ("--------------------------- BETWEEN");
-@include media(small hand) {}
-@include media(small lap) {}
-@include media(small desk) {}
-@include media(hand lap) {}
-@include media(hand desk) {}
-@include media(lap desk) {}
-@debug ("--------------------------- PIXELS");
-@include media(100px) {}
-@include media(100px 200px) {}
-@include media(to 100px) {}
-@include media(from 100px) {}
+.l-sidebar-left {
 
-@debug "DONE";
+  .l-main {
+    @extend .lap-span8;
+    @extend .lap-push4;
+  }
+
+  .l-side {
+    @extend .lap-span4;
+    @extend .lap-pull8;
+  }
+}
+
+.l-fullwidth {
+
+  .l-main {
+    @extend .lap-span12;
+  }
+
+  .l-side {
+    display: none;
+  }
+}
+
+.l-centered {
+
+  .l-main {
+    @extend .lap-span8;
+    @extend .lap-offset2;
+  }
+
+  .l-side {
+    display: none;
+  }
+}

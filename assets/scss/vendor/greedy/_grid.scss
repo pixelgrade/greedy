@@ -7,7 +7,7 @@
 img {max-width: 100%}
 
 $gridWidth: 1000px;
-$gridGutter: 10px;
+$gridGutter: 24px;
 $responsive: true;
 
 %grid {
@@ -24,13 +24,13 @@ $responsive: true;
 
 %row {
   @extend %clearfix;
-  margin-left: -1 * $gridGutter;
+  @include rem(margin-left, -1 * $gridGutter);
 }
 
 %column {
   position: relative;
   border: 0 solid transparent;
-  border-left-width: $gridGutter;
+  @include rem(border-left-width, $gridGutter);
   @include background-clip(padding-box !important);
   @include background-origin(padding-box !important);
 }
@@ -87,7 +87,6 @@ $bpSizes: ();
       }
     }
   }
-  @debug unquote("only screen" + $string);
   @return unquote("only screen" + $string);
 }
 
@@ -148,97 +147,8 @@ $classN: (); // name
 $classR: (); // ratio
 $classP: (); // placeholder
 $classT: (); // type
-@mixin newClass($n, $r, $t: span, $p: false) {
-  $classN: append($classN, $n);
-  $classR: append($classR, $r);
-  $classT: append($classT, $t);
-  $classP: append($classP, $p);
-}
 
-@mixin generateClasses() {
-  @for $i from 1 through length($classN) {
-    $n: nth($classN, $i);
-    $r: nth($classR, $i);
-    $t: nth($classT, $i);
-    $p: nth($classP, $i);
-
-    // span
-    @if $t == span {
-      %#{$n} {
-        @extend %span;
-        width: percentage($r);
-      }
-    }
-
-    @if $t == push {
-      %#{$n} {
-        left: percentage($r);
-      }
-    }
-
-    @if $t == pull {
-      %#{$n} {
-        left: -1 * percentage($r);
-      }
-    }
-
-    @if $t == offset {
-      %#{$n} {
-        margin-left: percentage($r);
-      }
-    }
-
-    @if $p != true {
-      .#{$n} {
-        @extend %#{$n};
-      }
-    }
-  }
-
-  @each $bp in $bpNames {
-    @include media(from $bp) {
-      @for $i from 1 through length($classN) {
-        $n: nth($classN, $i);
-        $r: nth($classR, $i);
-        $t: nth($classT, $i);
-        $p: nth($classP, $i);
-
-        @if $t == span {
-          %#{$bp}-#{$n} {
-            width: percentage($r);
-          }
-        }
-
-        @if $t == offset {
-          %#{$bp}-#{$n} {
-            margin-left: percentage($r);
-          }
-        }
-
-        @if $t == push {
-          %#{$bp}-#{$n} {
-            position: relative;
-            left: percentage($r);
-          }
-        }
-
-        @if $t == pull {
-          %#{$bp}-#{$n} {
-            position: relative;
-            left: -1 * percentage($r);
-          }
-        }
-
-        @if $p != true {
-          .#{$bp}-#{$n} {
-            @extend %#{$bp}-#{$n};
-          }
-        }
-      }
-    }
-  }
-}
-
+// grid
 $columns: 12;
 @for $i from 1 through $columns {
   @include newClass(span#{$i}, $i / $columns);
@@ -248,38 +158,16 @@ $columns: 12;
 }
 @include generateClasses();
 
-@mixin remux($bp1, $bp2, $fs1, $fs2, $fstep: 1px) {
-  $index1: index($bpNames, $bp1);
-  $index2: index($bpNames, $bp2);
-  @if $index1 != false {
-    $bp1: nth($bpSizes, $index1);
-  }
-  @if $index2 != false {
-    $bp2: nth($bpSizes, $index2);
-  }
-  $bprange: $bp2 - $bp1;
-  $steps: ($fs2 - $fs1) / $fstep;
-  $bstep: $bprange / $steps;
-  $bp: $bp1;
-  $fs: $fs1;
-
-  @for $i from 1 through $steps {
-    @include media($bp ($bp + $bstep)) {
-      @debug ($bp, $bp + $bstep, $fs);
-      html {
-        font-size: percentage($fs/16px);
-      }
-    }
-    $fs: $fs + $fstep;
-    $bp: $bp + $bstep;
+// remux
+@include media(to hand) {
+  html {
+    font-size: percentage(14px/16px);
   }
 }
-
-@include remux(0, hand, 10px, 12px);
-@include remux(hand, lap, 12px, 16px);
-@include remux(lap, desk, 16px, 20px);
+@include remux(hand, lap, 14px, 18px);
+@include remux(lap, desk, 14px, 18px);
 @include media(desk) {
   html {
-    font-size: percentage(20px/16px);
+    font-size: percentage(18px/16px);
   }
 }

@@ -12,7 +12,7 @@ $fontSizeBase			: 16px;
 $fontSizeLarge			: $fontSizeBase*$large;
 $fontSizeSmall			: $fontSizeBase*$small;
 $fontSizeMini			: $fontSizeBase*$mini;
-$lineHeightBase			: 1.75;
+$lineHeightBase			: 1.618;
 
 $fontFamilyBase			: $fontFamilySansSerif;
 $heading-fontFamily		: 'Roboto Slab', sans-serif;
@@ -21,7 +21,7 @@ $heading-color			: $grayDarker;
 
 //						: Modular scale
 $modularScale			: true;		// not even an option :)
-$ratio					: 1.25;
+$ratio					: 1.2;
 $base-size				: $fontSizeBase;
 
 //						: Headings

@@ -422,39 +422,29 @@ table {
   zoom: 1;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_typography\.scss}line{font-family:\000035}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_typography\.scss}line{font-family:\000033}}
 html {
   font-family: "Open Sans", sans-serif;
   font-size: 100%;
-  line-height: 1.5;
+  line-height: 1.618;
   color: #222222;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_typography\.scss}line{font-family:\0000314}}
+pre code {
+  word-wrap: normal;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_typography\.scss}line{font-family:\0000319}}
+address, blockquote,
 ul, ol, dl, p, table {
-  margin: 0 0 24px;
-  margin:  0 0 1.5rem;
+  margin: 0 0 25.888px;
+  margin:  0;
+  margin:  0 0;
+  margin:  0 0 1.618rem;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_typography\.scss}line{font-family:\0000318}}
-ul ul, ol ul, ul ol, ol ol {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_typography\.scss}line{font-family:\0000326}}
-dt {
-  font-weight: bold;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_typography\.scss}line{font-family:\0000327}}
-dd {
-  margin-bottom: 24px;
-  margin-bottom: 1.5rem;
-  margin-left: 0;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_typography\.scss}line{font-family:\0000333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_typography\.scss}line{font-family:\0000324}}
 hgroup, h1, h2, h3, h4, h5, h6 {
   margin: 0;
   text-rendering: optimizeLegibility;
@@ -463,73 +453,73 @@ hgroup, h1, h2, h3, h4, h5, h6 {
   color: #444444;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_typography\.scss}line{font-family:\0000344}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_typography\.scss}line{font-family:\0000335}}
 .alpha, h1 {
-  line-height: 1.17195;
-  font-size: 41px;
-  font-size: 2.5625rem;
+  line-height: 1.29565;
+  font-size: 40px;
+  font-size: 2.5rem;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_typography\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_typography\.scss}line{font-family:\0000336}}
 .beta, h2 {
-  line-height: 1.55;
-  font-size: 31px;
-  font-size: 1.9375rem;
+  line-height: 1.57048;
+  font-size: 33px;
+  font-size: 2.0625rem;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_typography\.scss}line{font-family:\0000346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_typography\.scss}line{font-family:\0000337}}
 .gama, h3 {
-  line-height: 1.84808;
-  font-size: 26px;
-  font-size: 1.625rem;
+  line-height: 1.85093;
+  font-size: 28px;
+  font-size: 1.75rem;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_typography\.scss}line{font-family:\0000347}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_typography\.scss}line{font-family:\0000338}}
 .delta, h4 {
-  line-height: 1.14524;
-  font-size: 21px;
-  font-size: 1.3125rem;
+  line-height: 1.12774;
+  font-size: 23px;
+  font-size: 1.4375rem;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_typography\.scss}line{font-family:\0000348}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_typography\.scss}line{font-family:\0000339}}
 .epsylon, h5 {
-  line-height: 1.26579;
+  line-height: 1.36516;
   font-size: 19px;
   font-size: 1.1875rem;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_typography\.scss}line{font-family:\0000349}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_typography\.scss}line{font-family:\0000340}}
 .zeta, h6 {
-  line-height: 1.33611;
-  font-size: 18px;
-  font-size: 1.125rem;
+  line-height: 1.62113;
+  font-size: 16px;
+  font-size: 1rem;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_typography\.scss}line{font-family:\0000354}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_typography\.scss}line{font-family:\0000345}}
 hgroup .alpha, hgroup h1, hgroup .beta, hgroup h2, hgroup .gama, hgroup h3, hgroup .delta, hgroup h4, hgroup .epsylon, hgroup h5 {
   margin: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_typography\.scss}line{font-family:\0000367}}
-pre code {
-  word-wrap: normal;
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_typography\.scss}line{font-family:\0000358}}
+abbr[title], abbr[data-original-title] {
+  cursor: help;
+  border-bottom: 1px dotted #999999;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_typography\.scss}line{font-family:\0000371}}
-pre code {
-  white-space: -moz-pre-wrap;
-  white-space: pre-wrap;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_typography\.scss}line{font-family:\0000376}}
-pre {
-  white-space: pre;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_typography\.scss}line{font-family:\0000380}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_typography\.scss}line{font-family:\0000364}}
 code {
   white-space: pre;
   font-family: monospace;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_typography\.scss}line{font-family:\0000369}}
+pre {
+  white-space: pre;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_typography\.scss}line{font-family:\0000372}}
+pre code {
+  white-space: -moz-pre-wrap;
+  white-space: pre-wrap;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\000031}}
@@ -554,9 +544,9 @@ img {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\0000313}}
 .container {
+  width: 1000px;
   margin-left: auto;
   margin-right: auto;
-  width: 1000px;
 }
 @media only screen {
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\0000313}}
@@ -567,14 +557,16 @@ img {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\0000325}}
 .row {
-  margin-left: -10px;
+  margin-left: -24px;
+  margin-left: -1.5rem;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\0000330}}
-[class*="span"], .span1, .span2, .span3, .span4, .span5, .span6, .span7, .span8, .span9, .span10, .span11, .span12 {
+[class*="span"], .span1, .span2, .span3, .span4, .span5, .span6, .span7, .span8, .span9, .span10, .span11, .span12, .l-main, .l-side {
   position: relative;
   border: 0 solid transparent;
-  border-left-width: 10px;
+  border-left-width: 24px;
+  border-left-width: 1.5rem;
   -webkit-background-clip: padding-box !important;
   -moz-background-clip: padding-box !important;
   background-clip: padding-box !important;
@@ -586,1375 +578,1369 @@ img {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\0000338}}
-[class*="span"], .span1, .span2, .span3, .span4, .span5, .span6, .span7, .span8, .span9, .span10, .span11, .span12 {
+[class*="span"], .span1, .span2, .span3, .span4, .span5, .span6, .span7, .span8, .span9, .span10, .span11, .span12, .l-main, .l-side {
   float: left;
   min-height: 1px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003167}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\0000387}}
 .span1 {
   width: 8.33333%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003186}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003106}}
 .offset1 {
   margin-left: 8.33333%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003174}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\0000394}}
 .push1 {
   left: 8.33333%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003180}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003100}}
 .pull1 {
   left: -8.33333%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003167}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\0000387}}
 .span2 {
   width: 16.66667%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003186}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003106}}
 .offset2 {
   margin-left: 16.66667%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003174}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\0000394}}
 .push2 {
   left: 16.66667%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003180}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003100}}
 .pull2 {
   left: -16.66667%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003167}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\0000387}}
 .span3 {
   width: 25%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003186}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003106}}
 .offset3 {
   margin-left: 25%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003174}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\0000394}}
 .push3 {
   left: 25%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003180}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003100}}
 .pull3 {
   left: -25%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003167}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\0000387}}
 .span4 {
   width: 33.33333%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003186}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003106}}
 .offset4 {
   margin-left: 33.33333%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003174}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\0000394}}
 .push4 {
   left: 33.33333%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003180}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003100}}
 .pull4 {
   left: -33.33333%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003167}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\0000387}}
 .span5 {
   width: 41.66667%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003186}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003106}}
 .offset5 {
   margin-left: 41.66667%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003174}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\0000394}}
 .push5 {
   left: 41.66667%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003180}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003100}}
 .pull5 {
   left: -41.66667%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003167}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\0000387}}
 .span6 {
   width: 50%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003186}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003106}}
 .offset6 {
   margin-left: 50%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003174}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\0000394}}
 .push6 {
   left: 50%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003180}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003100}}
 .pull6 {
   left: -50%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003167}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\0000387}}
 .span7 {
   width: 58.33333%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003186}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003106}}
 .offset7 {
   margin-left: 58.33333%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003174}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\0000394}}
 .push7 {
   left: 58.33333%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003180}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003100}}
 .pull7 {
   left: -58.33333%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003167}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\0000387}}
 .span8 {
   width: 66.66667%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003186}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003106}}
 .offset8 {
   margin-left: 66.66667%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003174}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\0000394}}
 .push8 {
   left: 66.66667%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003180}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003100}}
 .pull8 {
   left: -66.66667%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003167}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\0000387}}
 .span9 {
   width: 75%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003186}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003106}}
 .offset9 {
   margin-left: 75%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003174}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\0000394}}
 .push9 {
   left: 75%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003180}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003100}}
 .pull9 {
   left: -75%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003167}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\0000387}}
 .span10 {
   width: 83.33333%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003186}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003106}}
 .offset10 {
   margin-left: 83.33333%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003174}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\0000394}}
 .push10 {
   left: 83.33333%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003180}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003100}}
 .pull10 {
   left: -83.33333%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003167}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\0000387}}
 .span11 {
   width: 91.66667%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003186}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003106}}
 .offset11 {
   margin-left: 91.66667%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003174}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\0000394}}
 .push11 {
   left: 91.66667%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003180}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003100}}
 .pull11 {
   left: -91.66667%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003167}}
-.span12 {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\0000387}}
+.span12, .l-main, .l-side {
   width: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003186}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003106}}
 .offset12 {
   margin-left: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003174}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\0000394}}
 .push12 {
   left: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003180}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003100}}
 .pull12 {
   left: -100%;
 }
 
 @media only screen {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003207}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003127}}
   .small-span1 {
     width: 8.33333%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003133}}
   .small-offset1 {
     margin-left: 8.33333%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003139}}
   .small-push1 {
     position: relative;
     left: 8.33333%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003226}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003146}}
   .small-pull1 {
     position: relative;
     left: -8.33333%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003207}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003127}}
   .small-span2 {
     width: 16.66667%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003133}}
   .small-offset2 {
     margin-left: 16.66667%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003139}}
   .small-push2 {
     position: relative;
     left: 16.66667%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003226}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003146}}
   .small-pull2 {
     position: relative;
     left: -16.66667%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003207}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003127}}
   .small-span3 {
     width: 25%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003133}}
   .small-offset3 {
     margin-left: 25%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003139}}
   .small-push3 {
     position: relative;
     left: 25%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003226}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003146}}
   .small-pull3 {
     position: relative;
     left: -25%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003207}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003127}}
   .small-span4 {
     width: 33.33333%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003133}}
   .small-offset4 {
     margin-left: 33.33333%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003139}}
   .small-push4 {
     position: relative;
     left: 33.33333%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003226}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003146}}
   .small-pull4 {
     position: relative;
     left: -33.33333%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003207}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003127}}
   .small-span5 {
     width: 41.66667%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003133}}
   .small-offset5 {
     margin-left: 41.66667%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003139}}
   .small-push5 {
     position: relative;
     left: 41.66667%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003226}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003146}}
   .small-pull5 {
     position: relative;
     left: -41.66667%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003207}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003127}}
   .small-span6 {
     width: 50%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003133}}
   .small-offset6 {
     margin-left: 50%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003139}}
   .small-push6 {
     position: relative;
     left: 50%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003226}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003146}}
   .small-pull6 {
     position: relative;
     left: -50%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003207}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003127}}
   .small-span7 {
     width: 58.33333%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003133}}
   .small-offset7 {
     margin-left: 58.33333%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003139}}
   .small-push7 {
     position: relative;
     left: 58.33333%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003226}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003146}}
   .small-pull7 {
     position: relative;
     left: -58.33333%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003207}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003127}}
   .small-span8 {
     width: 66.66667%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003133}}
   .small-offset8 {
     margin-left: 66.66667%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003139}}
   .small-push8 {
     position: relative;
     left: 66.66667%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003226}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003146}}
   .small-pull8 {
     position: relative;
     left: -66.66667%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003207}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003127}}
   .small-span9 {
     width: 75%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003133}}
   .small-offset9 {
     margin-left: 75%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003139}}
   .small-push9 {
     position: relative;
     left: 75%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003226}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003146}}
   .small-pull9 {
     position: relative;
     left: -75%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003207}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003127}}
   .small-span10 {
     width: 83.33333%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003133}}
   .small-offset10 {
     margin-left: 83.33333%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003139}}
   .small-push10 {
     position: relative;
     left: 83.33333%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003226}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003146}}
   .small-pull10 {
     position: relative;
     left: -83.33333%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003207}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003127}}
   .small-span11 {
     width: 91.66667%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003133}}
   .small-offset11 {
     margin-left: 91.66667%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003139}}
   .small-push11 {
     position: relative;
     left: 91.66667%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003226}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003146}}
   .small-pull11 {
     position: relative;
     left: -91.66667%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003207}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003127}}
   .small-span12 {
     width: 100%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003133}}
   .small-offset12 {
     margin-left: 100%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003139}}
   .small-push12 {
     position: relative;
     left: 100%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003226}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003146}}
   .small-pull12 {
     position: relative;
     left: -100%;
   }
 }
 @media only screen and (min-width: 25em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003207}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003127}}
   .hand-span1 {
     width: 8.33333%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003133}}
   .hand-offset1 {
     margin-left: 8.33333%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003139}}
   .hand-push1 {
     position: relative;
     left: 8.33333%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003226}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003146}}
   .hand-pull1 {
     position: relative;
     left: -8.33333%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003207}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003127}}
   .hand-span2 {
     width: 16.66667%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003133}}
   .hand-offset2 {
     margin-left: 16.66667%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003139}}
   .hand-push2 {
     position: relative;
     left: 16.66667%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003226}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003146}}
   .hand-pull2 {
     position: relative;
     left: -16.66667%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003207}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003127}}
   .hand-span3 {
     width: 25%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003133}}
   .hand-offset3 {
     margin-left: 25%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003139}}
   .hand-push3 {
     position: relative;
     left: 25%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003226}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003146}}
   .hand-pull3 {
     position: relative;
     left: -25%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003207}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003127}}
   .hand-span4 {
     width: 33.33333%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003133}}
   .hand-offset4 {
     margin-left: 33.33333%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003139}}
   .hand-push4 {
     position: relative;
     left: 33.33333%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003226}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003146}}
   .hand-pull4 {
     position: relative;
     left: -33.33333%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003207}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003127}}
   .hand-span5 {
     width: 41.66667%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003133}}
   .hand-offset5 {
     margin-left: 41.66667%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003139}}
   .hand-push5 {
     position: relative;
     left: 41.66667%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003226}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003146}}
   .hand-pull5 {
     position: relative;
     left: -41.66667%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003207}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003127}}
   .hand-span6 {
     width: 50%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003133}}
   .hand-offset6 {
     margin-left: 50%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003139}}
   .hand-push6 {
     position: relative;
     left: 50%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003226}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003146}}
   .hand-pull6 {
     position: relative;
     left: -50%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003207}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003127}}
   .hand-span7 {
     width: 58.33333%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003133}}
   .hand-offset7 {
     margin-left: 58.33333%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003139}}
   .hand-push7 {
     position: relative;
     left: 58.33333%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003226}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003146}}
   .hand-pull7 {
     position: relative;
     left: -58.33333%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003207}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003127}}
   .hand-span8 {
     width: 66.66667%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003133}}
   .hand-offset8 {
     margin-left: 66.66667%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003139}}
   .hand-push8 {
     position: relative;
     left: 66.66667%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003226}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003146}}
   .hand-pull8 {
     position: relative;
     left: -66.66667%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003207}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003127}}
   .hand-span9 {
     width: 75%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003133}}
   .hand-offset9 {
     margin-left: 75%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003139}}
   .hand-push9 {
     position: relative;
     left: 75%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003226}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003146}}
   .hand-pull9 {
     position: relative;
     left: -75%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003207}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003127}}
   .hand-span10 {
     width: 83.33333%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003133}}
   .hand-offset10 {
     margin-left: 83.33333%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003139}}
   .hand-push10 {
     position: relative;
     left: 83.33333%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003226}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003146}}
   .hand-pull10 {
     position: relative;
     left: -83.33333%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003207}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003127}}
   .hand-span11 {
     width: 91.66667%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003133}}
   .hand-offset11 {
     margin-left: 91.66667%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003139}}
   .hand-push11 {
     position: relative;
     left: 91.66667%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003226}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003146}}
   .hand-pull11 {
     position: relative;
     left: -91.66667%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003207}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003127}}
   .hand-span12 {
     width: 100%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003133}}
   .hand-offset12 {
     margin-left: 100%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003139}}
   .hand-push12 {
     position: relative;
     left: 100%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003226}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003146}}
   .hand-pull12 {
     position: relative;
     left: -100%;
   }
 }
 @media only screen and (min-width: 48em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003207}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003127}}
   .lap-span1 {
     width: 8.33333%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003133}}
   .lap-offset1 {
     margin-left: 8.33333%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003139}}
   .lap-push1 {
     position: relative;
     left: 8.33333%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003226}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003146}}
   .lap-pull1 {
     position: relative;
     left: -8.33333%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003207}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003127}}
   .lap-span2 {
     width: 16.66667%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
-  .lap-offset2 {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003133}}
+  .lap-offset2, .l-centered .l-main {
     margin-left: 16.66667%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003139}}
   .lap-push2 {
     position: relative;
     left: 16.66667%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003226}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003146}}
   .lap-pull2 {
     position: relative;
     left: -16.66667%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003207}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003127}}
   .lap-span3 {
     width: 25%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003133}}
   .lap-offset3 {
     margin-left: 25%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003139}}
   .lap-push3 {
     position: relative;
     left: 25%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003226}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003146}}
   .lap-pull3 {
     position: relative;
     left: -25%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003207}}
-  .lap-span4 {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003127}}
+  .lap-span4, .l-sidebar-right .l-side, .l-sidebar-left .l-side {
     width: 33.33333%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003133}}
   .lap-offset4 {
     margin-left: 33.33333%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
-  .lap-push4 {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003139}}
+  .lap-push4, .l-sidebar-left .l-main {
     position: relative;
     left: 33.33333%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003226}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003146}}
   .lap-pull4 {
     position: relative;
     left: -33.33333%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003207}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003127}}
   .lap-span5 {
     width: 41.66667%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003133}}
   .lap-offset5 {
     margin-left: 41.66667%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003139}}
   .lap-push5 {
     position: relative;
     left: 41.66667%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003226}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003146}}
   .lap-pull5 {
     position: relative;
     left: -41.66667%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003207}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003127}}
   .lap-span6 {
     width: 50%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003133}}
   .lap-offset6 {
     margin-left: 50%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003139}}
   .lap-push6 {
     position: relative;
     left: 50%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003226}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003146}}
   .lap-pull6 {
     position: relative;
     left: -50%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003207}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003127}}
   .lap-span7 {
     width: 58.33333%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003133}}
   .lap-offset7 {
     margin-left: 58.33333%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003139}}
   .lap-push7 {
     position: relative;
     left: 58.33333%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003226}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003146}}
   .lap-pull7 {
     position: relative;
     left: -58.33333%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003207}}
-  .lap-span8 {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003127}}
+  .lap-span8, .l-sidebar-right .l-main, .l-sidebar-left .l-main, .l-centered .l-main {
     width: 66.66667%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003133}}
   .lap-offset8 {
     margin-left: 66.66667%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003139}}
   .lap-push8 {
     position: relative;
     left: 66.66667%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003226}}
-  .lap-pull8 {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003146}}
+  .lap-pull8, .l-sidebar-left .l-side {
     position: relative;
     left: -66.66667%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003207}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003127}}
   .lap-span9 {
     width: 75%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003133}}
   .lap-offset9 {
     margin-left: 75%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003139}}
   .lap-push9 {
     position: relative;
     left: 75%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003226}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003146}}
   .lap-pull9 {
     position: relative;
     left: -75%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003207}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003127}}
   .lap-span10 {
     width: 83.33333%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003133}}
   .lap-offset10 {
     margin-left: 83.33333%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003139}}
   .lap-push10 {
     position: relative;
     left: 83.33333%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003226}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003146}}
   .lap-pull10 {
     position: relative;
     left: -83.33333%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003207}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003127}}
   .lap-span11 {
     width: 91.66667%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003133}}
   .lap-offset11 {
     margin-left: 91.66667%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003139}}
   .lap-push11 {
     position: relative;
     left: 91.66667%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003226}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003146}}
   .lap-pull11 {
     position: relative;
     left: -91.66667%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003207}}
-  .lap-span12 {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003127}}
+  .lap-span12, .l-fullwidth .l-main {
     width: 100%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003133}}
   .lap-offset12 {
     margin-left: 100%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003139}}
   .lap-push12 {
     position: relative;
     left: 100%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003226}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003146}}
   .lap-pull12 {
     position: relative;
     left: -100%;
   }
 }
 @media only screen and (min-width: 80em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003207}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003127}}
   .desk-span1 {
     width: 8.33333%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003133}}
   .desk-offset1 {
     margin-left: 8.33333%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003139}}
   .desk-push1 {
     position: relative;
     left: 8.33333%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003226}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003146}}
   .desk-pull1 {
     position: relative;
     left: -8.33333%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003207}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003127}}
   .desk-span2 {
     width: 16.66667%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003133}}
   .desk-offset2 {
     margin-left: 16.66667%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003139}}
   .desk-push2 {
     position: relative;
     left: 16.66667%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003226}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003146}}
   .desk-pull2 {
     position: relative;
     left: -16.66667%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003207}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003127}}
   .desk-span3 {
     width: 25%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003133}}
   .desk-offset3 {
     margin-left: 25%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003139}}
   .desk-push3 {
     position: relative;
     left: 25%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003226}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003146}}
   .desk-pull3 {
     position: relative;
     left: -25%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003207}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003127}}
   .desk-span4 {
     width: 33.33333%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003133}}
   .desk-offset4 {
     margin-left: 33.33333%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003139}}
   .desk-push4 {
     position: relative;
     left: 33.33333%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003226}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003146}}
   .desk-pull4 {
     position: relative;
     left: -33.33333%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003207}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003127}}
   .desk-span5 {
     width: 41.66667%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003133}}
   .desk-offset5 {
     margin-left: 41.66667%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003139}}
   .desk-push5 {
     position: relative;
     left: 41.66667%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003226}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003146}}
   .desk-pull5 {
     position: relative;
     left: -41.66667%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003207}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003127}}
   .desk-span6 {
     width: 50%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003133}}
   .desk-offset6 {
     margin-left: 50%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003139}}
   .desk-push6 {
     position: relative;
     left: 50%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003226}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003146}}
   .desk-pull6 {
     position: relative;
     left: -50%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003207}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003127}}
   .desk-span7 {
     width: 58.33333%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003133}}
   .desk-offset7 {
     margin-left: 58.33333%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003139}}
   .desk-push7 {
     position: relative;
     left: 58.33333%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003226}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003146}}
   .desk-pull7 {
     position: relative;
     left: -58.33333%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003207}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003127}}
   .desk-span8 {
     width: 66.66667%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003133}}
   .desk-offset8 {
     margin-left: 66.66667%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003139}}
   .desk-push8 {
     position: relative;
     left: 66.66667%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003226}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003146}}
   .desk-pull8 {
     position: relative;
     left: -66.66667%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003207}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003127}}
   .desk-span9 {
     width: 75%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003133}}
   .desk-offset9 {
     margin-left: 75%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003139}}
   .desk-push9 {
     position: relative;
     left: 75%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003226}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003146}}
   .desk-pull9 {
     position: relative;
     left: -75%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003207}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003127}}
   .desk-span10 {
     width: 83.33333%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003133}}
   .desk-offset10 {
     margin-left: 83.33333%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003139}}
   .desk-push10 {
     position: relative;
     left: 83.33333%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003226}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003146}}
   .desk-pull10 {
     position: relative;
     left: -83.33333%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003207}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003127}}
   .desk-span11 {
     width: 91.66667%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003133}}
   .desk-offset11 {
     margin-left: 91.66667%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003139}}
   .desk-push11 {
     position: relative;
     left: 91.66667%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003226}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003146}}
   .desk-pull11 {
     position: relative;
     left: -91.66667%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003207}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003127}}
   .desk-span12 {
     width: 100%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003213}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003133}}
   .desk-offset12 {
     margin-left: 100%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003219}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003139}}
   .desk-push12 {
     position: relative;
     left: 100%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003226}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\00003146}}
   .desk-pull12 {
     position: relative;
     left: -100%;
   }
 }
-@media only screen and (max-width: 12.5em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003269}}
-  html {
-    font-size: 62.5%;
-  }
-}
-@media only screen and (min-width: 12.5em) and (max-width: 25em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003269}}
-  html {
-    font-size: 68.75%;
-  }
-}
-@media only screen and (min-width: 25em) and (max-width: 30.75em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003269}}
-  html {
-    font-size: 75%;
-  }
-}
-@media only screen and (min-width: 30.75em) and (max-width: 36.5em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003269}}
-  html {
-    font-size: 81.25%;
-  }
-}
-@media only screen and (min-width: 36.5em) and (max-width: 42.25em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003269}}
+@media only screen and (max-width: 47.9375em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003163}}
   html {
     font-size: 87.5%;
   }
 }
-@media only screen and (min-width: 42.25em) and (max-width: 48em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003269}}
+@media only screen and (min-width: 25em) and (max-width: 30.75em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\0000361}}
+  html {
+    font-size: 87.5%;
+  }
+}
+@media only screen and (min-width: 30.75em) and (max-width: 36.5em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\0000361}}
   html {
     font-size: 93.75%;
   }
 }
-@media only screen and (min-width: 48em) and (max-width: 56em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003269}}
+@media only screen and (min-width: 36.5em) and (max-width: 42.25em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\0000361}}
   html {
     font-size: 100%;
   }
 }
-@media only screen and (min-width: 56em) and (max-width: 64em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003269}}
+@media only screen and (min-width: 42.25em) and (max-width: 48em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\0000361}}
   html {
     font-size: 106.25%;
   }
 }
-@media only screen and (min-width: 64em) and (max-width: 72em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003269}}
+@media only screen and (min-width: 48em) and (max-width: 56em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\0000361}}
   html {
-    font-size: 112.5%;
+    font-size: 87.5%;
+  }
+}
+@media only screen and (min-width: 56em) and (max-width: 64em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\0000361}}
+  html {
+    font-size: 93.75%;
+  }
+}
+@media only screen and (min-width: 64em) and (max-width: 72em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\0000361}}
+  html {
+    font-size: 100%;
   }
 }
 @media only screen and (min-width: 72em) and (max-width: 80em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003269}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_mixins\.scss}line{font-family:\0000361}}
   html {
-    font-size: 118.75%;
+    font-size: 106.25%;
   }
 }
 @media only screen and (min-width: 80em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003282}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_grid\.scss}line{font-family:\00003170}}
   html {
-    font-size: 125%;
+    font-size: 112.5%;
   }
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/vendor\/greedy\/_index\.scss}line{font-family:\0000313}}
@@ -1969,15 +1955,6 @@ img {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/style\.scss}line{font-family:\0000312}}
 body {
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(96%, rgba(0, 0, 0, 0)), color-stop(98%, rgba(0, 0, 0, 0.1)), color-stop(100%, rgba(0, 0, 0, 0.1)), color-stop(100%, rgba(0, 0, 0, 0)));
-  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 96%, rgba(0, 0, 0, 0.1) 98%, rgba(0, 0, 0, 0.1) 100%, rgba(0, 0, 0, 0));
-  background-image: -moz-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 96%, rgba(0, 0, 0, 0.1) 98%, rgba(0, 0, 0, 0.1) 100%, rgba(0, 0, 0, 0));
-  background-image: -o-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 96%, rgba(0, 0, 0, 0.1) 98%, rgba(0, 0, 0, 0.1) 100%, rgba(0, 0, 0, 0));
-  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 96%, rgba(0, 0, 0, 0.1) 98%, rgba(0, 0, 0, 0.1) 100%, rgba(0, 0, 0, 0));
-  -webkit-background-size: 1.5rem 1.5rem;
-  -moz-background-size: 1.5rem 1.5rem;
-  -o-background-size: 1.5rem 1.5rem;
-  background-size: 1.5rem 1.5rem;
   border-left: 10px solid red;
 }
 @media only screen and (min-width: 25em) {
@@ -1995,23 +1972,33 @@ body {
 @media only screen and (min-width: 80em) {
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/style\.scss}line{font-family:\0000312}}
   body {
-    border-color: green;
+    border-color: blue;
   }
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/style\.scss}line{font-family:\0000327}}
-.container {
-  padding: 0 16px;
-  padding:  0 1rem;
-  border-left: 2px solid lightsteelblue;
+#page {
+  background: #eeeeee;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/style\.scss}line{font-family:\0000330}}
+.l-boxed #page {
+  width: 1000px;
+  margin: 0 auto;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/style\.scss}line{font-family:\0000339}}
-.show-grid [class*="span"] {
-  background: rgba(136, 136, 136, 0.5);
-  text-align: center;
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/style\.scss}line{font-family:\0000336}}
+.container {
+  padding: 0 16px;
+  padding:  0;
+  padding:  0 1rem;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/style\.scss}line{font-family:\0000343}}
-.show-grid [class*="span"]:hover {
-  background: rgba(204, 204, 204, 0.5);
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/style\.scss}line{font-family:\0000379}}
+.l-fullwidth .l-side {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/uniserver\/www\/newgrid\/assets\/scss\/style\.scss}line{font-family:\0000391}}
+.l-centered .l-side {
+  display: none;
 }

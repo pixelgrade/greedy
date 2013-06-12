@@ -1,21 +1,4 @@
-@mixin rem($property, $values) {
-  $rem: $fontSizeBase/1rem;
-  #{$property}: $values;
-  @if type-of($values) == "number" {
-    #{$property}: $values/$rem;
-  } @else {
-    $rem-values: unquote("");
-    @each $value in $values {
-      @if $value == 0 or $value == auto or $value == !important or unit($value) == em or unit($value) == "%" {
-        $rem-values: append($rem-values, $value);
-      } @else {
-        $rem-values: append($rem-values, $value/$rem);
-      }
-    }
-  #{$property}: $rem-values;
-  }
-}
-
+// TYPOGRAPHY
 @mixin white-space($wrap-space) {
   @if $wrap-space == 'pre-wrap' {
     white-space: #{-moz-}$wrap-space;
@@ -29,13 +12,9 @@
   $ems: ceil($fs/($fontSizeBase*$lh));
   $height: ($ems*$fontSizeBase*$lh)/$fs;
   $height: $height*$ratio;
-
-// Change global variables
+  // Change global variables
   $lineHeight: ($height*$fs + 0.05px)/$fs; //**George
-// $lineHeight: 1.5;
-
   $fontSize: $fs;
-
   line-height: $lineHeight;
   @include rem(font-size, $fontSize);
 }
@@ -52,16 +31,134 @@
   } @else {
     $rem-values: unquote("");
     @each $value in $values {
-      @if $value == 0 or
-				$value == auto or
-				$value == !important or
-unit($value) == em or
-unit($value) == "%" {
-  $rem-values: append($rem-values, $value);
-} @else {
-  $rem-values: append($rem-values, $value/$rem);
+      @if unit($value) == px {
+        $rem-values: append($rem-values, $value/$rem);
+      } @else {
+        $rem-values: append($rem-values, $value);
+      }
+      #{$property}: $rem-values;
+    }
+  }
 }
+
+@mixin remux($bp1, $bp2, $fs1, $fs2, $fstep: 1px) {
+  $index1: index($bpNames, $bp1);
+  $index2: index($bpNames, $bp2);
+  @if $index1 != false {
+    $bp1: nth($bpSizes, $index1);
   }
-#{$property}: $rem-values;
+  @if $index2 != false {
+    $bp2: nth($bpSizes, $index2);
   }
+  $bprange: $bp2 - $bp1;
+  $steps: ($fs2 - $fs1) / $fstep;
+  $bstep: $bprange / $steps;
+  $bp: $bp1;
+  $fs: $fs1;
+
+  @for $i from 1 through $steps {
+    @include media($bp ($bp + $bstep)) {
+      html {
+        font-size: percentage($fs/16px);
+      }
+    }
+    $fs: $fs + $fstep;
+    $bp: $bp + $bstep;
   }
+}
+
+// GRID
+
+@mixin newClass($n, $r, $t: span, $p: false) {
+  $classN: append($classN, $n);
+  $classR: append($classR, $r);
+  $classT: append($classT, $t);
+  $classP: append($classP, $p);
+}
+
+@mixin generateClasses() {
+  @for $i from 1 through length($classN) {
+    $n: nth($classN, $i);
+    $r: nth($classR, $i);
+    $t: nth($classT, $i);
+    $p: nth($classP, $i);
+
+    @if $t == span {
+      %#{$n} {
+        @extend %span;
+        width: percentage($r);
+      }
+    }
+
+    @if $t == push {
+      %#{$n} {
+        left: percentage($r);
+      }
+    }
+
+    @if $t == pull {
+      %#{$n} {
+        left: -1 * percentage($r);
+      }
+    }
+
+    @if $t == offset {
+      %#{$n} {
+        margin-left: percentage($r);
+      }
+    }
+
+    @if $p != true {
+      .#{$n} {
+        @extend %#{$n};
+      }
+    }
+  }
+
+  @each $bp in $bpNames {
+    @include media(from $bp) {
+      @for $i from 1 through length($classN) {
+        $n: nth($classN, $i);
+        $r: nth($classR, $i);
+        $t: nth($classT, $i);
+        $p: nth($classP, $i);
+
+        @if $t == span {
+          %#{$bp}-#{$n} {
+            width: percentage($r);
+          }
+        }
+
+        @if $t == offset {
+          %#{$bp}-#{$n} {
+            margin-left: percentage($r);
+          }
+        }
+
+        @if $t == push {
+          %#{$bp}-#{$n} {
+            position: relative;
+            left: percentage($r);
+          }
+        }
+
+        @if $t == pull {
+          %#{$bp}-#{$n} {
+            position: relative;
+            left: -1 * percentage($r);
+          }
+        }
+
+        @if $p != true {
+          .#{$bp}-#{$n} {
+            @extend %#{$bp}-#{$n};
+          }
+        }
+      }
+    }
+  }
+  $classN: (); // name
+  $classR: (); // ratio
+  $classP: (); // placeholder
+  $classT: (); // type
+}
