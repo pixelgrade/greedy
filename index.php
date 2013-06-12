@@ -9,8 +9,17 @@
         conditionizr({
             debug      : true,
             scriptSrc  : 'assets/js/conditionizr/',
-            styleSrc   : 'assets/css/min/conditionizr/',
-            ieLessThan : { active: true, version: '9', scripts: true, styles: true, classes: true, customScript: '//cdnjs.cloudflare.com/ajax/libs/respond.js/1.1.0/respond.min.js, //cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js'},
+            styleSrc   : 'assets/css/conditionizr/',
+            ieLessThan : {
+                active: true,
+                version: '9',
+                scripts: true,
+                styles: true,
+                classes: true,
+                customScript: '' +
+                    '//cdnjs.cloudflare.com/ajax/libs/respond.js/1.1.0/respond.min.js,' +
+                    '//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js'
+            },
             chrome     : { scripts: true, styles: true, classes: true, customScript: '//cdnjs.cloudflare.com/ajax/libs/respond.js/1.1.0/respond.min.js, //cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js' },
             safari     : { scripts: true, styles: true, classes: true, customScript: false },
             opera      : { scripts: true, styles: true, classes: true, customScript: false },
@@ -32,7 +41,7 @@
 <body class="l-sidebar-right">
     <div id="page">
         <div class="wrapper">
-            <nav class="container" hidden>
+            <div class="container" hidden="hidden">
                 <ul class="main-menu">
                     <li class="main-menu-item"><a href="#">menu item</a></li>
                     <li class="main-menu-item"><a href="#">menu item</a>
@@ -55,7 +64,7 @@
                     <li class="main-menu-item"><a href="#">menu item</a></li>
                     <li class="main-menu-item"><a href="#">menu item</a></li>
                 </ul>
-            </nav>
+            </div>
         </div>
         <div class="wrapper">
             <div class="container">

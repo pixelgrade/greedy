@@ -20,7 +20,7 @@ body {
     border-color: yellow;
   }
   @include media(from desk) {
-    border-color: blue;
+    border-color: coral;
   }
 }
 
