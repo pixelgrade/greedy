@@ -1307,6 +1307,16 @@ img {
   float: right; }
 
 body {
+  background-color: #eeeeee;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(96%, rgba(0, 0, 0, 0)), color-stop(98%, rgba(0, 0, 0, 0.1)), color-stop(100%, rgba(0, 0, 0, 0.1)), color-stop(100%, rgba(0, 0, 0, 0)));
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 96%, rgba(0, 0, 0, 0.1) 98%, rgba(0, 0, 0, 0.1) 100%, rgba(0, 0, 0, 0));
+  background-image: -moz-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 96%, rgba(0, 0, 0, 0.1) 98%, rgba(0, 0, 0, 0.1) 100%, rgba(0, 0, 0, 0));
+  background-image: -o-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 96%, rgba(0, 0, 0, 0.1) 98%, rgba(0, 0, 0, 0.1) 100%, rgba(0, 0, 0, 0));
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 96%, rgba(0, 0, 0, 0.1) 98%, rgba(0, 0, 0, 0.1) 100%, rgba(0, 0, 0, 0));
+  -webkit-background-size: 1.618rem 1.618rem;
+  -moz-background-size: 1.618rem 1.618rem;
+  -o-background-size: 1.618rem 1.618rem;
+  background-size: 1.618rem 1.618rem;
   border-left: 10px solid red; }
   @media only screen and (min-width: 25em) {
     body {
@@ -1316,13 +1326,11 @@ body {
       border-color: yellow; } }
   @media only screen and (min-width: 80em) {
     body {
-      border-color: coral; } }
+      border-color: blue; } }
 
-#page {
-  background: #eeeeee; }
-  .l-boxed #page {
-    width: 1000px;
-    margin: 0 auto; }
+.l-boxed #page {
+  width: 1000px;
+  margin: 0 auto; }
 
 .container {
   padding: 0 16px;

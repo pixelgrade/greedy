@@ -1,7 +1,8 @@
 @import "compass";
 @import "vendor/normalize/normalize";
 @import "vendor/greedy/index";
-//@import "vendor/font-awesome/font-awesome";
+// @import "icons/*.png";
+// @import "vendor/font-awesome/font-awesome";
 
 
 @mixin verticalGrid($ratio: $lineHeightBase) {
@@ -10,7 +11,8 @@
 }
 
 body {
-  //@include verticalGrid();
+  background-color: $grayLightest;
+  @include verticalGrid(); 
   border-left: 10px solid red;
 
   @include media(from hand) {
@@ -20,12 +22,11 @@ body {
     border-color: yellow;
   }
   @include media(from desk) {
-    border-color: coral;
+    border-color: blue;
   }
 }
 
 #page {
-  background: $grayLightest;
 
   .l-boxed & {
     width: $gridWidth;
