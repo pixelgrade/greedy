@@ -41,6 +41,37 @@
 <body class="l-sidebar-right">
     <div id="page">
         <div class="wrapper">
+            <header>
+                <h1 id="main-title">
+                    CityLife
+                </h1>
+                <ul class="main-menu">
+                    <li>
+                        Homepage
+                        <ul class="submenu">
+                            <li>Who we are</li>
+                            <li>
+                                <a href="#">what we do</a>
+                                <ul>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                </ul>
+                            </li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Portfolio</li>
+                    <li>Gallery</li>
+                    <li>Contact</li>
+                    <li class="search-button"></li>
+                </ul>
+            </header>
             <div class="container" hidden="hidden">
                 <ul class="main-menu">
                     <li class="main-menu-item"><a href="#">menu item</a></li>
@@ -64,6 +95,16 @@
                     <li class="main-menu-item"><a href="#">menu item</a></li>
                     <li class="main-menu-item"><a href="#">menu item</a></li>
                 </ul>
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="container">
+                <div class="test">
+                    <h1>sadsa dsd asxsa</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut interdum elit nunc, sed tincidunt nibh lobortis vitae. Aenean ut justo velit. Sed interdum porttitor adipiscing. Etiam posuere ligula eget bibendum sagittis. Pellentesque porttitor egestas vulputate. Maecenas eleifend mattis turpis, sed blandit sapien porta sagittis. Quisque feugiat luctus libero. Aliquam nec consectetur erat. Curabitur dignissim scelerisque urna sed ullamcorper. Etiam pulvinar felis lorem. Curabitur eget diam a nisl tincidunt placerat vel sit amet est.</p>
+                    <p>Nullam quis risus ante. Duis accumsan tincidunt condimentum. Proin rutrum nisl ac malesuada semper. Sed consequat adipiscing odio vel eleifend. Vestibulum commodo pellentesque consectetur. Phasellus cursus tortor vitae orci vulputate, sed placerat quam sodales. Etiam ultricies elit enim, a porttitor mauris dapibus a. 
+                    </p>
+                </div>
             </div>
         </div>
         <div class="wrapper">

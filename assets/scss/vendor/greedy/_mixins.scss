@@ -23,6 +23,11 @@
   @include fontSize($fs, $lh, $ratio);
 }
 
+@function rem($px) {
+  $rem: $fontSizeBase/1rem;
+  @return $px/$fontSizeBase * 1rem;
+}
+
 @mixin rem($property, $values) {
   $rem: $fontSizeBase/1rem;
   #{$property}: $values;
@@ -30,14 +35,19 @@
     #{$property}: $values/$rem;
   } @else {
     $rem-values: unquote("");
+    // margin: 0 auto !important 16px
     @each $value in $values {
-      @if unit($value) == px {
-        $rem-values: append($rem-values, $value/$rem);
-      } @else {
+      @if $value == auto or $value == !important or $value == 0 {
         $rem-values: append($rem-values, $value);
+      } @else {
+        @if unit($value) == px {
+          $rem-values: append($rem-values, $value/$rem);
+        } @else {
+          $rem-values: append($rem-values, $value);
+        }
       }
-      #{$property}: $rem-values;
     }
+    #{$property}: $rem-values;
   }
 }
 

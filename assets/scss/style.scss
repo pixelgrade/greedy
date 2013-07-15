@@ -29,13 +29,13 @@ body {
 #page {
 
   .l-boxed & {
-    width: $gridWidth;
     margin: 0 auto;
   }
 }
 
 .container {
   @extend %grid;
+  @include rem(width, $gridWidth);
   @include rem(padding, 0 16px);
 }
 
@@ -71,7 +71,7 @@ body {
   }
 }
 
-.l-fullwidth {
+.l-fullwidth { 
 
   .l-main {
     @extend .lap-span12;
@@ -92,4 +92,17 @@ body {
   .l-side {
     display: none;
   }
+}
+
+.test {
+}
+@include remux(1200px, 1900px, 16px, 24px, 1px);
+
+
+%span6 {
+  width: 50%;
+}
+
+.clasa-mea {
+  @extend %span6;
 }
