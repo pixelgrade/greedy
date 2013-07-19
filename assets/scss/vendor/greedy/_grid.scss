@@ -6,12 +6,8 @@
 
 img {max-width: 100%}
 
-$gridWidth: 1000px;
-$gridGutter: 24px;
-$responsive: true;
-
 %grid {
-  width: $gridWidth;
+  @include rem(width, $gridWidth);
   margin-left: auto;
   margin-right: auto;
 
@@ -27,16 +23,12 @@ $responsive: true;
   @include rem(margin-left, -1 * $gridGutter);
 }
 
-%column {
+%span {
   position: relative;
   border: 0 solid transparent;
   @include rem(border-left-width, $gridGutter);
   @include background-clip(padding-box !important);
   @include background-origin(padding-box !important);
-}
-
-%span {
-  @extend %column;
   float: left;
   min-height: 1px;
 }
@@ -45,8 +37,6 @@ $responsive: true;
 [class*="span"] {
   @extend %span;
 }
-
-$breakpoints: 0 small 400px hand 768px lap 1280px desk;
 
 $bpNames: ();
 $bpSizes: ();
@@ -90,18 +80,31 @@ $bpSizes: ();
   @return unquote("only screen" + $string);
 }
 
+@mixin myQuery($query) {
+  $queryString: queryString($query);
+  @if $queryString == "only screen" {
+    @debug "NO KIDDING";
+    @content;
+  } @else {
+    @debug $queryString;
+    @media #{$queryString} {
+      @content;
+    }
+  }
+}
+
 @mixin media($query) {
   @if length($query) == 1 {
     $index: index($bpNames, $query);
     @if $index {
       $bp1: nth($bpSizes, $index);
       $bp2: nth($bpSizes, $index + 1);
-      $bp2: if($bp2 > 0, $bp2 - 1px, $bp2);
-      @media #{queryString($bp1 $bp2)} {
+      // $bp2: if($bp2 > 0, $bp2 - 1px, $bp2);
+      @include myQuery($bp1 $bp2) {
         @content;
       }
     } @else {
-      @media #{queryString($query 0)} {
+      @include myQuery($query 0) {
         @content;
       }
     }
@@ -114,7 +117,12 @@ $bpSizes: ();
       $bp1: nth($bpSizes, $index1);
     }
     @if $index2 != false {
-      $bp2: if($bp1 == from, nth($bpSizes, $index2), nth($bpSizes, $index2 + 1));
+      @if $bp1 == from {
+        $bp2: nth($bpSizes, $index2);
+      } @else {
+        $bp2: nth($bpSizes, $index2 + 1);
+        $bp2: if($bp2 > 0, $bp2 - 1, $bp2);
+      }
     }
     @if ($bp1 == from) {
       $bp1: $bp2;
@@ -122,17 +130,12 @@ $bpSizes: ();
     }
     @if ($bp1 == to) {
       $bp1: 0;
-      @if $bp2 > 0 {
-        $bp2: $bp2 - 1px;
-      }
     }
-    @media #{queryString($bp1 $bp2)} {
+    @include myQuery($bp1 $bp2) {
       @content;
     }
   }
 }
-
-$defaultBreakpoint: lap;
 
 @function getBreakpointSize($bp) {
   $index: index($bpNames, $bp);
@@ -151,23 +154,9 @@ $classT: (); // type
 // grid
 $columns: 12;
 @for $i from 1 through $columns {
-  @include newClass(span#{$i}, $i / $columns);
-  @include newClass(offset#{$i}, $i / $columns, offset);
-  @include newClass(push#{$i}, $i / $columns, push);
-  @include newClass(pull#{$i}, $i / $columns, pull);
+  @include newClass(span#{$i}, $i / $columns, span, true);
+  @include newClass(offset#{$i}, $i / $columns, offset, true);
+  @include newClass(push#{$i}, $i / $columns, push, true);
+  @include newClass(pull#{$i}, $i / $columns, pull, true);
 }
 @include generateClasses();
-
-// remux
-@include media(to hand) {
-  html {
-    font-size: percentage(14px/16px);
-  }
-}
-@include remux(hand, lap, 14px, 18px);
-@include remux(lap, desk, 14px, 18px);
-@include media(desk) {
-  html {
-    font-size: percentage(18px/16px);
-  }
-}

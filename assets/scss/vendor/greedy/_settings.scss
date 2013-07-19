@@ -12,7 +12,7 @@ $fontSizeBase			: 16px;
 $fontSizeLarge			: $fontSizeBase*$large;
 $fontSizeSmall			: $fontSizeBase*$small;
 $fontSizeMini			: $fontSizeBase*$mini;
-$lineHeightBase			: 1.618;
+$lineHeightBase			: 1.5;
 
 $fontFamilyBase			: $fontFamilySansSerif;
 $heading-fontFamily		: 'Roboto Slab', sans-serif;
@@ -21,7 +21,7 @@ $heading-color			: $grayDarker;
 
 //						: Modular scale
 $modularScale			: true;		// not even an option :)
-$ratio					: 1.2;
+$ratio					: 1.272;
 $base-size				: $fontSizeBase;
 
 //						: Headings
@@ -36,10 +36,9 @@ $zeta-size				: ms(0); 	// h6
 $responsive				: true;
 $visibilityClasses		: false;
 $gridWidth				: 980px;
-$gutter					: 20px;
-$padding				: 0;
+$gridGutter				: 0;
 $margin					: auto;
-$breakpoints			: small 400px hand 768px lap 1280px desk;
+$breakpoints			: 400px hand 768px lap 1280px desk;
 $defaultBreakpoint		: lap;
 
 //						: regular grid system options

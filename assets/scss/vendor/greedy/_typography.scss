@@ -23,6 +23,7 @@ ul, ol, dl, p, table {
 // Headings
 %heading {
   margin: 0;
+  @include rem(margin-bottom, $unit);
   text-rendering: optimizeLegibility;
   font-family: $heading-fontFamily;
   font-weight: $heading-fontWeight;
@@ -30,14 +31,14 @@ ul, ol, dl, p, table {
   @if $heading-color != null {
     color: $heading-color;
   }
-}
+} 
 
-.alpha		{ @include fs($alpha-size); }
-.beta		{ @include fs($beta-size); }
-.gama		{ @include fs($gama-size); }
-.delta		{ @include fs($delta-size); }
-.epsylon	{ @include fs($epsylon-size); }
-.zeta		{ @include fs($zeta-size); }
+.alpha		{ @include fs($alpha-size, $lineHeightBase, 1/2); }
+.beta		{ @include fs($beta-size, $lineHeightBase, 1/2); }
+.gama		{ @include fs($gama-size, $lineHeightBase, 1/2); }
+.delta		{ @include fs($delta-size, $lineHeightBase, 1/2); }
+.epsylon	{ @include fs($epsylon-size, $lineHeightBase, 1/2); }
+.zeta		{ @include fs($zeta-size, $lineHeightBase, 1/2); }
 
 hgroup {
   @extend %heading;
@@ -46,6 +47,7 @@ hgroup {
     margin: 0;
   }
 }
+
 
 h1 {@extend %heading; @extend .alpha;}
 h2 {@extend %heading; @extend .beta;}

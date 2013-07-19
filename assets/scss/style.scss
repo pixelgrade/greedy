@@ -6,75 +6,75 @@
 
 
 @mixin verticalGrid($ratio: $lineHeightBase) {
-  @include background-image(linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0) 96%, rgba(0,0,0,.1) 98%, rgba(0,0,0,.1) 100%, rgba(0,0,0,0)));
-  @include background-size($ratio * 1rem $ratio * 1rem);
+  @include background-image(linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0) 96%, rgba(0,0,0,.15) 96%, rgba(0,0,0,.15) 100%, rgba(0,0,0,0)));
+  @include background-size($ratio * 1.5rem $ratio * 1.5rem);
 }
 
 body {
   background-color: $grayLightest;
-  @include verticalGrid(); 
-  border-left: 10px solid red;
+  @include verticalGrid(1/2); 
+  // border-left: 10px solid red;
 
-  @include media(from hand) {
-    border-color: orange;
-  }
-  @include media(from lap) {
-    border-color: yellow;
-  }
-  @include media(from desk) {
-    border-color: blue;
-  }
+  // @include media(from hand) {
+  //   border-color: orange;
+  // }
+  // @include media(from lap) {
+  //   border-color: yellow;
+  // }
+  // @include media(from desk) {  
+  //   border-color: blue; 
+  // }
 }
 
 #page {
-
+ 
   .l-boxed & {
-    width: $gridWidth;
+    width: $gridWidth; 
     margin: 0 auto;
   }
 }
-
+ 
 .container {
   @extend %grid;
   @include rem(padding, 0 16px);
 }
 
-.row {
-  @extend %row;
-}
+.row { 
+  @extend %row;  
+} 
 
 .l-main, .l-side {
-  @extend .span12;
+  @extend %span12;
 }
 
 .l-sidebar-right {
 
   .l-main {
-    @extend .lap-span8;
+    @extend %lap-span8;
   }
 
   .l-side {
-    @extend .lap-span4;
+    @extend %lap-span4;
   }
 }
 
 .l-sidebar-left {
 
   .l-main {
-    @extend .lap-span8;
-    @extend .lap-push4;
+    @extend %lap-span8;
+    @extend %lap-push4;
   }
 
   .l-side {
-    @extend .lap-span4;
-    @extend .lap-pull8;
+    @extend %lap-span4;
+    @extend %lap-pull8;
   }
 }
 
 .l-fullwidth {
 
   .l-main {
-    @extend .lap-span12;
+    @extend %lap-span12;
   }
 
   .l-side {
@@ -85,11 +85,38 @@ body {
 .l-centered {
 
   .l-main {
-    @extend .lap-span8;
-    @extend .lap-offset2;
+    @extend %lap-span8;
+    @extend %lap-offset2;
   }
 
   .l-side {
     display: none;
   }
+}
+
+
+@include remux(0, hand, 14px, 18px) {}
+@include remux(hand, lap, 16px, 20px) {}
+@include remux(lap, desk, 18px, 24px) {}
+@include media(desk) {
+  html { 
+    font-size: percentage(24px/16px);
+  }
+}
+
+.container {
+  background-color: #eee;
+  background-color: rgba(0,0,0,0.1);
+}
+
+.l-main, .l-side {
+  border-width: 0 1px;
+  border-color: #ddd;
+  border-color: rgba(0,0,0,0.2);
+  @include rem(min-height, 2*$unit);
+  @include rem(padding, $unit);
+} 
+
+p, ul, ol {
+  @include fs(16px);
 }

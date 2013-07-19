@@ -7,7 +7,7 @@
 
 ## Smart grid system
 #### Set up your breakpoints
-`$breakpoints: 0 small 400px hand 768px lap 1280px desk;`
+`$breakpoints: 400px hand 768px lap 1280px desk;`
 
 #### Use the 'media()' mixin for consistent media queries
 `@include media(lap) {...}`

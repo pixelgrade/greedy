@@ -8,15 +8,15 @@
   }
 }
 
-@mixin fontSize($fs, $lh, $ratio) {
-  $ems: ceil($fs/($fontSizeBase*$lh));
-  $height: ($ems*$fontSizeBase*$lh)/$fs;
-  $height: $height*$ratio;
-  // Change global variables
-  $lineHeight: ($height*$fs + 0.05px)/$fs; //**George
-  $fontSize: $fs;
+@mixin fontSize($fs, $lh, $ratio: 1) {
+  $ems: ceil($fs/($fontSizeBase*$lh*$ratio));
+  $lineHeight: ($ems*$fontSizeBase*$lh*$ratio)/$fs;
   line-height: $lineHeight;
-  @include rem(font-size, $fontSize);
+  
+  padding-top: (($lineHeight - 1)/2 + 0.16) + em;
+  margin-bottom: $lineHeight/$ems - (($lineHeight - 1)/2 + 0.16) + em;
+  
+  @include rem(font-size, $fs);
 }
 
 @mixin fs($fs: $fontSizeBase, $lh: $lineHeightBase, $ratio: 1) {
@@ -26,18 +26,18 @@
 @mixin rem($property, $values) {
   $rem: $fontSizeBase/1rem;
   #{$property}: $values;
-  @if type-of($values) == "number" {
+  @if type-of($values) == "number" and unit($values) == px {
     #{$property}: $values/$rem;
   } @else {
-    $rem-values: unquote("");
+    $rem-values: ();
     @each $value in $values {
-      @if unit($value) == px {
+      @if type_of($value) == number and unit($value) == px {
         $rem-values: append($rem-values, $value/$rem);
       } @else {
         $rem-values: append($rem-values, $value);
       }
-      #{$property}: $rem-values;
     }
+    #{$property}: $rem-values;
   }
 }
 
