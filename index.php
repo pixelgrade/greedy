@@ -4,42 +4,225 @@
     <meta charset="UTF-8">
     <title></title>
     <link rel="stylesheet" href="assets/css/style.css"/>
+    <link rel="stylesheet" href="assets/css/vendor/spectrum.css"/>
     <script src="assets/js/vendor/conditionizr.min.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.cookie.js"></script>
+    <script src="assets/js/spectrum.js"></script>
+    <script src="assets/js/scripts.js"></script>
     <script>
-        conditionizr({
-            debug      : true,
-            scriptSrc  : 'assets/js/conditionizr/',
-            styleSrc   : 'assets/css/conditionizr/',
-            ieLessThan : {
-                active: true,
-                version: '9',
-                scripts: true,
-                styles: true,
-                classes: true,
-                customScript: '' +
-                    '//cdnjs.cloudflare.com/ajax/libs/respond.js/1.1.0/respond.min.js,' +
-                    '//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js'
-            },
-            chrome     : { scripts: true, styles: true, classes: true, customScript: '//cdnjs.cloudflare.com/ajax/libs/respond.js/1.1.0/respond.min.js, //cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js' },
-            safari     : { scripts: true, styles: true, classes: true, customScript: false },
-            opera      : { scripts: true, styles: true, classes: true, customScript: false },
-            firefox    : { scripts: true, styles: true, classes: true, customScript: false },
-            ie10       : { scripts: true, styles: true, classes: true, customScript: false },
-            ie9        : { scripts: true, styles: true, classes: true, customScript: false },
-            ie8        : { scripts: true, styles: true, classes: true, customScript: false },
-            ie7        : { scripts: true, styles: true, classes: true, customScript: false },
-            ie6        : { scripts: true, styles: true, classes: true, customScript: false },
-            retina     : { scripts: true, styles: true, classes: true, customScript: false },
-            touch      : { scripts: true, styles: true, classes: true, customScript: false },
-            mac        : true,
-            win        : true,
-            x11        : true,
-            linux      : true
-        });
-    </script>
+    conditionizr({
+        debug      : true,
+        scriptSrc  : 'assets/js/conditionizr/',
+        styleSrc   : 'assets/css/conditionizr/',
+        ieLessThan : {
+            active: true,
+            version: '9',
+            scripts: true,
+            styles: true,
+            classes: true,
+            customScript: '' +
+            '//cdnjs.cloudflare.com/ajax/libs/respond.js/1.1.0/respond.min.js,' +
+            '//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js'
+        },
+        chrome     : { scripts: true, styles: true, classes: true, customScript: '//cdnjs.cloudflare.com/ajax/libs/respond.js/1.1.0/respond.min.js, //cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js' },
+        safari     : { scripts: true, styles: true, classes: true, customScript: false },
+        opera      : { scripts: true, styles: true, classes: true, customScript: false },
+        firefox    : { scripts: true, styles: true, classes: true, customScript: false },
+        ie10       : { scripts: true, styles: true, classes: true, customScript: false },
+        ie9        : { scripts: true, styles: true, classes: true, customScript: false },
+        ie8        : { scripts: true, styles: true, classes: true, customScript: false },
+        ie7        : { scripts: true, styles: true, classes: true, customScript: false },
+        ie6        : { scripts: true, styles: true, classes: true, customScript: false },
+        retina     : { scripts: true, styles: true, classes: true, customScript: false },
+        touch      : { scripts: true, styles: true, classes: true, customScript: false },
+        mac        : true,
+        win        : true,
+        x11        : true,
+        linux      : true
+    });
+</script>
 </head>
-<body class="l-sidebar-right">
-    <div id="page">
+<body class="l-sidebar-right" data-accentcolor="#0179a2">
+    <div class="settings-container">
+        <a class="settings-toggle" href="#"><i class="icon-cogs"></i></a>
+        <div class="settings">
+            <p>Layout</p>
+            <select name="layout" id="">
+                <option value="">Full Width</option>
+                <option value="l-boxed">Boxed</option>
+            </select>
+            <p>Sidebar</p>
+            <select name="sidebar" id="">
+                <option value="l-sidebar-right">Sidebar Right</option>
+                <option value="l-sidebar-left">Sidebar Left</option>
+                <option value="l-fullwidth">No Sidebar</option>
+            </select>
+            <p>Navigation</p>
+            <select name="navigation" id="">
+                <option value="">Default</option>
+                <option value="inverse">Inverse</option>
+            </select>
+            <p>Accent Color</p>
+            <input name="accent-color" type="text" />
+        </div>
+    </div>
+    <div id="page" class="rhytm-overlay">
+        <div class="wrapper">
+            <div class="container container-header">
+                <div class="row">
+                    <div class="span6">
+                        <h1 class="gama">Enhance <small>Your web experience</small></h1>
+                    </div>
+                    <div class="span6">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="container container-navigation">
+                <ul class="nav">
+                    <li class="current"><a href="#">Home</a></li>
+                    <li><a href="#">Features</a>
+                        <ul>
+                            <li><a href="#">Full Width</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Pricing Tables</a></li>
+                            <li><a href="#">FlexSlider</a></li>
+                            <li><a href="#">Page Templates</a>
+                                <ul>
+                                    <li><a href="#">Sidebar Right</a></li>
+                                    <li><a href="#">Sidebar Left</a></li>
+                                    <li><a href="#">Single Post</a></li>
+                                    <li><a href="#">Single Project</a>
+                                        <ul>
+                                            <li><a href="#">Third level menu item</a></li>
+                                            <li><a href="#">Third level menu item</a></li>
+                                            <li><a href="#">Third level menu item</a></li>
+                                            <li><a href="#">Third level menu item</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Shortcodes</a></li>
+                    <li><a href="#">Portfolio</a>
+                        <ul>
+                            <li><a href="#">2 Columns</a></li>
+                            <li><a href="#">3 Columns</a></li>
+                            <li><a href="#">4 Columns</a></li>
+                            <li><a href="#">Single Project</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <!-- <select class="selectnav" id="selectnav1">
+                    <option value="#">Menu</option>
+                    <option value="#">Home</option>
+                    <option value="#">Features</option>
+                    <option value="#">- Full Width</option>
+                    <option value="#">- About Us</option>
+                    <option value="#">- Services</option>
+                    <option value="#">- Pricing Tables</option>
+                    <option value="#">- FlexSlider</option>
+                    <option value="#">- Page Templates</option>
+                    <option value="#">-- Sidebar Right</option>
+                    <option value="#">-- Sidebar Left</option>
+                    <option value="#">-- Single Post</option>
+                    <option value="#">-- Single Project</option>
+                    <option value="#">Shortcodes</option>
+                    <option value="#">Portfolio</option>
+                    <option value="#">- 2 Columns</option>
+                    <option value="#">- 3 Columns</option>
+                    <option value="#">- 4 Columns</option>
+                    <option value="#">- Single Project</option>
+                    <option value="#">Blog</option>
+                    <option value="#">Contact</option>
+                </select>
+                <div class="search-form">
+                    <form method="get" action="#">
+                        <input type="text" class="search-text-box">
+                    </form>
+                </div> -->
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="span4">
+                        <i class="icon-leaf icon-2x pull-left"></i>
+                        <h5>Fresh &amp; Clean Design</h5>
+                        <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
+                    </div>
+                    <div class="span4">
+                        <i class="icon-cog icon-2x pull-left"></i>
+                        <h5>Easily Customization</h5>
+                        <p>Nam aliquam volutpat leo vel bibendum nunc elit purus, tempus pulvinare rhoncus egestas nibh volutpat leo.</p>
+                    </div>
+                    <div class="span4">
+                        <i class="icon-mobile-phone icon-2x pull-left"></i>
+                        <h5>Fully Responsive</h5>
+                        <p>Fusce porttitor turpis quis molestie costant equat. Nam purus, tincidunt sedeat dapibus ugravida ut dui. Fusce et magna libero</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <?php
+            function the_image() {
+                $dir = "assets/img/stock";
+                $images = scandir($dir);
+                $i = rand(1, sizeof($images)-1);
+                echo "<img src=".$dir."/".$images[$i]." alt='Random Image'>";
+            }
+        ?>
+        <div class="wrapper">
+            <div class="container">
+                <h3>Recent Works</h3>
+                <div class="row">
+                    <div class="span3">
+                        <?php the_image(); ?>
+                        <h4>Cool breath</h4>
+                        <p>Do the harlem shake you little prick</p>
+                    </div>
+                    <div class="span3">
+                        <?php the_image(); ?>
+                        <h4>Cool breath</h4>
+                        <p>Do the harlem shake you little prick</p>
+                    </div>
+                    <div class="span3">
+                        <?php the_image(); ?>
+                        <h4>Cool breath</h4>
+                        <p>Do the harlem shake you little prick</p>
+                    </div>
+                    <div class="span3">
+                        <?php the_image(); ?>
+                        <h4>Cool breath</h4>
+                        <p>Do the harlem shake you little prick</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="span4">
+                        <?php the_image(); ?>
+                        <h4>Cool breath</h4>
+                        <p>Do the harlem shake you little prick</p>
+                    </div>
+                    <div class="span4">
+                        <?php the_image(); ?>
+                        <h4>Cool breath</h4>
+                        <p>Do the harlem shake you little prick</p>
+                    </div>
+                    <div class="span4">
+                        <?php the_image(); ?>
+                        <h4>Cool breath</h4>
+                        <p>Do the harlem shake you little prick</p>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="wrapper">
             <div class="container">
                 <div class="row">
@@ -214,8 +397,8 @@
                 </div>
             </div>
         </div>
-        <div class="wrapper">
-            <div class="container" hidden="hidden">
+        <div class="wrapper wrapper-footer inverse">
+            <div class="container">
                 <div class="row">
                     <div class="span4">
                         <h3>The title</h3>

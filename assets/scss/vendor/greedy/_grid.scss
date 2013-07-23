@@ -152,9 +152,9 @@ $classT: (); // type
 // grid
 $columns: 12;
 @for $i from 1 through $columns {
-  @include newClass(span#{$i}, $i / $columns, span, true);
-  @include newClass(offset#{$i}, $i / $columns, offset, true);
-  @include newClass(push#{$i}, $i / $columns, push, true);
-  @include newClass(pull#{$i}, $i / $columns, pull, true);
+  @include newClass(span#{$i}, $i / $columns, span, false);
+  @include newClass(offset#{$i}, $i / $columns, offset, false);
+  @include newClass(push#{$i}, $i / $columns, push, false);
+  @include newClass(pull#{$i}, $i / $columns, pull, false);
 }
 @include generateClasses();

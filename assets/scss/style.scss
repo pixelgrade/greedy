@@ -2,7 +2,8 @@
 @import "vendor/normalize/normalize";
 @import "vendor/greedy/index";
 // @import "icons/*.png";
-// @import "vendor/font-awesome/font-awesome";
+@import "vendor/font-awesome/font-awesome";
+@import "vendor/spectrum";
 
 
 @mixin verticalGrid($ratio: $lineHeightBase) {
@@ -10,33 +11,93 @@
   @include background-size($ratio * 1.5rem $ratio * 1.5rem);
 }
 
-body {
-  background-color: $grayLightest;
-  @include verticalGrid(1/2); 
-  border-left: 10px solid green;
+.settings-container {
+  position: fixed;
+  @include rem(top, $unit);
+  right: 0;
+  @include rem(width, 1.5*$unit);
+  @include rem(height, 1.5*$unit);
+  background: white;
+  text-align: center;
+  @include rem(font-size, 20px);
+  @include transition(all .3s ease-in-out);
+  z-index: 9999999999999999;
 
-  @include media(from hand) {
-    border-color: orange;
+  .settings-visible & {
+    right: 300px;
   }
-  @include media(from lap) {
-    border-color: yellow;
+
+  a {
+    color: $grayDarkest;
+    text-decoration: none;
   }
-  @include media(from desk) {  
-    border-color: blue; 
+}
+
+.settings-visible {
+  overflow: hidden;
+
+  &:before {
+    content: "";
+    display: block;
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-color: rgba(black, 0.25);
+    z-index: 999999999;
+  }
+}
+
+.settings {
+  position: absolute;
+  top: 0; left: 100%;
+  background: white;
+  width: 300px;
+  height: auto;
+  text-align: left;
+  padding: 24px;
+}
+
+body {
+  background: url('../img/bg.jpg') center no-repeat fixed;
+  @include background-size(cover);
+}
+
+.rhytm-overlay {
+  position: relative;
+
+  &:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0; left: 0;
+    z-index: 999999999;
+    width: 100%;
+    height: 100%;
+    @include verticalGrid(1/2);
+    pointer-events: none;
   }
 }
 
 #page { 
+  background-color: white;
+  @include rem(padding-top, 1.5*$unit);
   
   .l-boxed & { 
     width: $gridWidth;  
-    margin: 0 auto;
+    @include rem(margin, 2*$unit auto);
   } 
+}
+
+.wrapper {
+  @include rem(padding-right, 1.5*$unit);
+  @include rem(padding-left, 1.5*$unit);
+  
+  .l-boxed & {
+  }
 }
  
 .container { 
   @extend %grid; 
-  @include rem(padding, 0 16px);
 }
 
 .row { 
@@ -47,7 +108,7 @@ body {
   @extend %span12;
 }
 
-.l-sidebar-right {
+.l-sidebar-right { 
 
   .l-main {
     @extend %lap-span8;
@@ -94,29 +155,120 @@ body {
   }
 }
 
+// ul,
+// ol, 
+p {
+  @include fs(16px);
+}
 
-@include remux(0, hand, 14px, 18px) {}
-@include remux(hand, lap, 16px, 20px) {}
-@include remux(lap, desk, 18px, 24px) {}
-@include media(desk) {
-  html { 
-    font-size: percentage(24px/16px);
+.container-header {
+  @include rem(min-height, 3.5*$unit);
+}
+
+%unstyled {
+  list-style: none;
+  padding-left: 0;
+}
+
+%menu-inline {
+  @extend %clearfix;
+  position: relative;
+
+  & > li {
+    display: inline-block;
+    float: left;
   }
 }
 
-.container {
-  background-color: #eee;
-  background-color: rgba(0,0,0,0.1);
+.inverse {
+  background: $grayDarkest;
+
+  &, a, %heading {
+    color: $grayLightest;
+  }
 }
 
-.l-main, .l-side {
-  border-width: 0 1px;
-  border-color: #ddd;
-  border-color: rgba(0,0,0,0.2);
-  @include rem(min-height, 2*$unit);
-  @include rem(padding, $unit);
-} 
+.nav {
+  @extend %unstyled;
+  @extend %menu-inline;
+  position: relative;
+  z-index: 100000;
+  background: $grayLightest;
 
-p, ul, ol {
-  @include fs(16px);
+  li {
+    position: relative;
+
+    &.current, &:hover {
+      background: $accentColor;
+      color: white;
+
+      & > a {
+        color: white;
+      }
+    }
+
+    &:hover {
+
+      & > ul {
+        display: block;
+      }
+    }
+  }
+
+  a {
+    display: block;
+    @include fs(14px);
+    @include rem(padding, $unit/2 $unit);
+    margin: 0;
+    text-decoration: none;
+    color: $grayDarkest;
+  }
+
+  ul {
+    @extend %unstyled;
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: $grayLightest;
+
+    a {
+      @include rem(padding, $unit/4 2*$unit $unit/4 $unit);
+    }
+
+    li {
+      @include rem(width, 200px);
+    }
+      
+    ul {
+      top: 0;
+      left: 100%;
+    }
+  }
+
+  &.inverse {
+    background: $grayDarkest;
+
+    a {
+      color: $grayLightest;
+    }
+
+    ul {
+      background: $grayDarkest;
+    }
+  }
 }
+
+.wrapper-footer {
+  @include rem(padding-top, $unit);
+  @include rem(padding-bottom, $unit);
+}
+
+// @include remux(0, hand, 14px, 18px) {}
+// @include remux(hand, lap, 16px, 20px) {}
+// @include remux(lap, desk, 18px, 24px) {}
+// @include media(desk) {
+//   html { 
+//     font-size: percentage(24px/16px);
+//   }
+// }
