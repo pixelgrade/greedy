@@ -83,10 +83,8 @@ $bpSizes: ();
 @mixin myQuery($query) {
   $queryString: queryString($query);
   @if $queryString == "only screen" {
-    @debug "NO KIDDING";
     @content;
   } @else {
-    @debug $queryString;
     @media #{$queryString} {
       @content;
     }

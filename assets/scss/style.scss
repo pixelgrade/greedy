@@ -1,4 +1,4 @@
-@import "compass";
+@import "compass"; 
 @import "vendor/normalize/normalize";
 @import "vendor/greedy/index";
 // @import "icons/*.png";
@@ -13,29 +13,29 @@
 body {
   background-color: $grayLightest;
   @include verticalGrid(1/2); 
-  // border-left: 10px solid red;
+  border-left: 10px solid green;
 
-  // @include media(from hand) {
-  //   border-color: orange;
-  // }
-  // @include media(from lap) {
-  //   border-color: yellow;
-  // }
-  // @include media(from desk) {  
-  //   border-color: blue; 
-  // }
-}
-
-#page {
- 
-  .l-boxed & {
-    width: $gridWidth; 
-    margin: 0 auto;
+  @include media(from hand) {
+    border-color: orange;
+  }
+  @include media(from lap) {
+    border-color: yellow;
+  }
+  @include media(from desk) {  
+    border-color: blue; 
   }
 }
+
+#page { 
+  
+  .l-boxed & { 
+    width: $gridWidth;  
+    margin: 0 auto;
+  } 
+}
  
-.container {
-  @extend %grid;
+.container { 
+  @extend %grid; 
   @include rem(padding, 0 16px);
 }
 
