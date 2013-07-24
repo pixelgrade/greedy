@@ -23,13 +23,19 @@ ul, ol, dl, p, table {
 // Headings
 %heading {
   margin: 0;
-  @include rem(margin-bottom, $unit);
   text-rendering: optimizeLegibility;
   font-family: $heading-fontFamily;
   font-weight: $heading-fontWeight;
 
   @if $heading-color != null {
     color: $heading-color;
+  }
+
+  small {
+    font-weight: normal;
+    @if $heading-color != null {
+      color: lighten($heading-color, 30%);
+    }    
   }
 } 
 

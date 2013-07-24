@@ -8,7 +8,7 @@ $fontFamilySerif		: serif;
 $fontFamilyMonospace	: monospace;
 
 $textColor				: $grayDarkest;
-$fontSizeBase			: 16px;
+$fontSizeBase			: 14px;
 $fontSizeLarge			: $fontSizeBase*$large;
 $fontSizeSmall			: $fontSizeBase*$small;
 $fontSizeMini			: $fontSizeBase*$mini;
@@ -21,16 +21,16 @@ $heading-color			: $grayDarker;
 
 //						: Modular scale
 $modularScale			: true;		// not even an option :)
-$ratio					: 1.272;
+$ratio					: 1.125;
 $base-size				: $fontSizeBase;
 
 //						: Headings
 $alpha-size				: ms(5); 	// h1
 $beta-size				: ms(4); 	// h2
 $gama-size				: ms(3); 	// h3
-$delta-size				: ms(2); 	// h4
-$epsylon-size			: ms(1); 	// h5
-$zeta-size				: ms(0); 	// h6
+$delta-size				: ms(1); 	// h4
+$epsylon-size			: ms(0); 	// h5
+$zeta-size				: ms(-1); 	// h6
 
 //						: Grid
 $responsive				: true;

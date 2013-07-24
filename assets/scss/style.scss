@@ -4,11 +4,17 @@
 // @import "icons/*.png";
 @import "vendor/font-awesome/font-awesome";
 @import "vendor/spectrum";
+@import "vendor/flexslider";
 
 
 @mixin verticalGrid($ratio: $lineHeightBase) {
-  @include background-image(linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0) 96%, rgba(0,0,0,.15) 96%, rgba(0,0,0,.15) 100%, rgba(0,0,0,0)));
+  @include background-image(linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0) 95%, rgba(0,0,0,.15) 95%, rgba(0,0,0,.15) 100%, rgba(0,0,0,0)));
   @include background-size($ratio * 1.5rem $ratio * 1.5rem);
+}
+
+a {
+  color: $accentColor;
+  text-decoration: none; 
 }
 
 .settings-container {
@@ -31,6 +37,38 @@
     color: $grayDarkest;
     text-decoration: none;
   }
+}
+
+.section-title {
+  position: relative;
+  border-bottom: 1px solid $grayLightest;
+  @include rem(padding-bottom, $unit/2);
+  @include rem(margin-bottom, $unit);
+
+  &:after {
+    content: "";
+    position: absolute;
+    bottom: -2px; left: 0;
+    border-top: 3px solid $accentColor;
+    @include rem(width, 48px);
+  }
+}
+
+.work-title {
+  border-bottom: 1px solid $grayLightest;
+  @include rem(margin-bottom, $unit/2);
+}
+
+.widget {
+  @include rem(margin-bottom, 2*$unit); 
+
+  ul {
+    @extend %unstyled;
+  }
+}
+
+.widget-title {
+  @extend .section-title;
 }
 
 .settings-visible {
@@ -76,6 +114,39 @@ body {
     @include verticalGrid(1/2);
     pointer-events: none;
   }
+}
+
+.arrows {
+  position: absolute;
+  top: 0; right: 0;
+}
+
+.carousel-heading {
+  position: relative;
+}
+
+.carousel-prev, .carousel-next {
+  position: absolute;
+  @include rem(width, $unit);
+  @include rem(height, $unit);
+  @include rem(top, 4px);
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  background-color: $grayLighter;
+
+  &:hover {
+    background-color: $accentColor;
+  }
+}
+
+.carousel-prev {
+  margin-right: 4px;
+  @include rem(right, $unit);
+}
+
+.carousel-next {
+  right: 0;
 }
 
 #page { 
@@ -155,6 +226,10 @@ body {
   }
 }
 
+.site-branding {
+  @include rem(margin-bottom, $unit);
+}
+
 // ul,
 // ol, 
 p {
@@ -162,7 +237,7 @@ p {
 }
 
 .container-header {
-  @include rem(min-height, 3.5*$unit);
+  // @include rem(min-height, 3.5*$unit);
 }
 
 %unstyled {
@@ -191,6 +266,7 @@ p {
 .nav {
   @extend %unstyled;
   @extend %menu-inline;
+  @include rem(margin-bottom, $unit);
   position: relative;
   z-index: 100000;
   background: $grayLightest;
@@ -217,8 +293,8 @@ p {
 
   a {
     display: block;
-    @include fs(14px);
-    @include rem(padding, $unit/2 $unit);
+    // @include fs(14px);
+    @include rem(padding, $unit);
     margin: 0;
     text-decoration: none;
     color: $grayDarkest;
@@ -264,6 +340,72 @@ p {
   @include rem(padding-bottom, $unit);
 }
 
+ol.slats {
+  padding-left: 0;
+  list-style: none;
+}
+
+.article-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+
+  &:hover {
+
+  }
+}
+
+.article-thumb {
+  @include rem(width, 5*$unit);
+  @include rem(height, 5*$unit);
+  @include rem(margin-top, $unit/2);
+  float: left;
+
+  img {
+    padding: 4px;
+    border: 1px solid #eee;
+  }
+}
+
+.article-title,
+.article-content {
+  @include rem(margin-left, 6*$unit);
+}
+
+.article-meta {
+  @include fs(12px);
+  color: $grayLight;
+
+  span {
+    margin-right: 1em;
+  }
+
+  i {
+    margin-right: .5em;
+    color: $grayDark;
+  }
+}
+
+.page {
+
+  ul {
+    text-align: center;
+  }
+
+  li {
+    display: inline-block;
+    margin-right: .25em;
+  }
+  
+  a {
+    display: block;
+    @include rem(padding, $unit/4 $unit/2);
+    font-weight: bold;
+    background-color: $accentColor;
+    color: white;
+  }
+}   
+
 // @include remux(0, hand, 14px, 18px) {}
 // @include remux(hand, lap, 16px, 20px) {}
 // @include remux(lap, desk, 18px, 24px) {}
@@ -272,3 +414,29 @@ p {
 //     font-size: percentage(24px/16px);
 //   }
 // }
+
+.flexslider {
+  @include rem(margin-bottom, 2*$unit); 
+}
+
+#scroll-to-top {
+  display: block;
+  position: fixed;
+  @include rem(bottom, $unit);
+  @include rem(right, $unit);
+  @include rem(padding-top, 0.45*$unit);
+  @include rem(width, 2*$unit);
+  @include rem(height, 2*$unit);
+  text-align: center;
+  background: $accentColor;
+  color: white;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.slogan {
+  @include rem(margin-bottom, 1.5*$unit);
+  font-weight: normal;
+}
