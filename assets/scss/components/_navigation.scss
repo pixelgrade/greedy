@@ -1,0 +1,87 @@
+.nav {
+  @extend %unstyled;
+  @extend %menu-inline;
+  margin-bottom: 0;
+  position: relative;
+  z-index: 100000;
+  @include fs(13px, false);
+
+  li {
+    position: relative;
+
+    &.current, &:hover {
+      color: white;
+
+      & > a {
+        background: $accentColor;
+        color: white;
+      }
+    }
+
+    &:hover {
+
+      & > ul {
+        display: block;
+      }
+    }
+  }
+
+  & > li {
+    
+    & > a {
+      text-transform: uppercase;
+      font-weight: bold;
+      @include rem(padding, $unit/4 $unit/2);
+      @include rem(margin, $unit*3/4 $unit/2 $unit*3/4 0);
+      @include border-radius(3px);
+      text-decoration: none;
+      color: $grayDarkest;
+    }
+
+    &:hover > ul {
+      @include box-shadow(rgba(black, .75) 0 5px 10px -5px inset);
+    }
+
+    &.parent-menu-item:hover {
+
+      & > a {
+        @include rem(padding-bottom, $unit);
+        margin-bottom: 0;
+        @include border-bottom-radius(0);
+      }
+
+      & > ul {
+        @include box-shadow(none);
+      }
+    }
+  }
+
+  a {
+    display: block;
+    @include rem(padding, $unit/4 2*$unit $unit/4 $unit/2);
+    color: white;
+    margin: 0;
+    @include border-radius(3px);
+    text-decoration: none;
+  }
+
+  ul {
+    @extend %unstyled;
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: $accentColor;
+    @include rem(padding, $unit/4 0);
+    @include border-bottom-radius(3px);
+
+    li {
+      @include rem(width, 200px);
+    }
+      
+    ul {
+      top: 0;
+      left: 100%;
+    }
+  }
+}

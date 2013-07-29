@@ -153,6 +153,15 @@
                 </div> -->
             </div>
         </div>
+        <div class="wrapper block block-darkest page-header">
+            <div class="container">
+                <ul class="breadcrumbs">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Page Templates</a></li>
+                </ul>
+                <h1 class="page-title">Sidebar left</h1>
+            </div>
+        </div>
         <div class="wrapper">
             <div class="container">
                 <h2 class="slogan align-center">We are a group of experienced designers and developers.<br>
@@ -163,33 +172,78 @@ We set new standards in user experience &amp; make future happen.</h2>
             <div class="container">
                 <div class="flexslider">
                     <ul class="slides">
-                        <li><?php the_image(); ?></li>
-                        <li><?php the_image(); ?></li>
-                        <li><?php the_image(); ?></li>
-                        <li><?php the_image(); ?></li>
-                        <li><?php the_image(); ?></li>
+                        <li>
+                            <div class="slide-image"><?php the_image(); ?></div>
+                            <div class="slide-content">
+                                <h4 class="slide-title">Responsive Layout</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec purus justo.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="slide-image"><?php the_image(); ?></div>
+                            <div class="slide-content">
+                                <h4 class="slide-title">Responsive Layout</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec purus justo.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="slide-image"><?php the_image(); ?></div>
+                            <div class="slide-content">
+                                <h4 class="slide-title">Responsive Layout</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec purus justo.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="slide-image"><?php the_image(); ?></div>
+                            <div class="slide-content">
+                                <h4 class="slide-title">Responsive Layout</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec purus justo.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="slide-image"><?php the_image(); ?></div>
+                            <div class="slide-content">
+                                <h4 class="slide-title">Responsive Layout</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec purus justo.</p>
+                            </div>
+                        </li>
                     </ul>
                 </div>
             </div>
         </div>
-        <div class="wrapper">
+        <div class="wrapper block block-lightest">
             <div class="container">
                 <div class="row">
-                    <div class="span4">
-                        <i class="icon-leaf icon-2x pull-left"></i>
-                        <h5>Fresh &amp; Clean Design</h5>
+                    <section class="feature span4">
+                        <div class="feature-heading clearfix">
+                            <span class="icon-stack icon-2x pull-left">
+                                <i class="icon-circle icon-stack-base"></i>
+                                <i class="icon-leaf"></i>
+                            </span>
+                            <h4 class="feature-title">Fresh &amp; Clean Design</h4>
+                        </div>
                         <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
-                    </div>
-                    <div class="span4">
-                        <i class="icon-cog icon-2x pull-left"></i>
-                        <h5>Easily Customization</h5>
+                    </section>
+                    <section class="feature span4">
+                        <div class="feature-heading clearfix">
+                            <span class="icon-stack icon-2x pull-left">
+                                <i class="icon-circle icon-stack-base"></i>
+                                <i class="icon-cog"></i>
+                            </span>
+                            <h4 class="feature-title">Easily Customization</h4>
+                        </div>
                         <p>Nam aliquam volutpat leo vel bibendum nunc elit purus, tempus pulvinare rhoncus egestas nibh volutpat leo.</p>
-                    </div>
-                    <div class="span4">
-                        <i class="icon-mobile-phone icon-2x pull-left"></i>
-                        <h5>Fully Responsive</h5>
+                    </section>
+                    <section class="feature span4">
+                        <div class="feature-heading clearfix">
+                            <span class="icon-stack icon-2x pull-left">
+                                <i class="icon-circle icon-stack-base"></i>
+                                <i class="icon-mobile-phone"></i>
+                            </span>
+                            <h4 class="feature-title">Fully Responsive</h4>
+                        </div>
                         <p>Fusce porttitor turpis quis molestie costant equat. Nam purus, tincidunt sedeat dapibus ugravida ut dui. Fusce et magna libero</p>
-                    </div>
+                    </section>
                 </div>
             </div>
         </div>
@@ -210,28 +264,48 @@ We set new standards in user experience &amp; make future happen.</h2>
                 </div>
                 <div class="row">
                     <div class="span3">
-                        <?php the_image(); ?>
+                        <a href="" class="work-thumb">
+                            <?php the_image(); ?>
+                            <span class="work-thumb-overlay">
+                                <i class="icon-search icon-2x"></i>
+                            </span>
+                        </a>
                         <div class="work-description">
                             <h4 class="work-title">Cool breath</h4>
                             <p>Do the harlem shake you little prick</p>
                         </div>
                     </div>
                     <div class="span3">
-                        <?php the_image(); ?>
+                        <a href="" class="work-thumb">
+                            <?php the_image(); ?>
+                            <span class="work-thumb-overlay">
+                                <i class="icon-search icon-2x"></i>
+                            </span>
+                        </a>
                         <div class="work-description">
                             <h4 class="work-title">Cool breath</h4>
                             <p>Do the harlem shake you little prick</p>
                         </div>
                     </div>
                     <div class="span3">
-                        <?php the_image(); ?>
+                        <a href="" class="work-thumb">
+                            <?php the_image(); ?>
+                            <span class="work-thumb-overlay">
+                                <i class="icon-search icon-2x"></i>
+                            </span>
+                        </a>
                         <div class="work-description">
                             <h4 class="work-title">Cool breath</h4>
                             <p>Do the harlem shake you little prick</p>
                         </div>
                     </div>
                     <div class="span3">
-                        <?php the_image(); ?>
+                        <a href="" class="work-thumb">
+                            <?php the_image(); ?>
+                            <span class="work-thumb-overlay">
+                                <i class="icon-search icon-2x"></i>
+                            </span>
+                        </a>
                         <div class="work-description">
                             <h4 class="work-title">Cool breath</h4>
                             <p>Do the harlem shake you little prick</p>
